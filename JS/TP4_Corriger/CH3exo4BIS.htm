@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<title> CH 3 Exo 4 </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="biblio.js" ></script>
+		<script type="text/javascript">
+
+			/* Cette fonction permet de changer la n ième image de la page par le fichier img */
+			function swapImg(n,img){
+			  alert(n)
+			  document.images[n].src=img
+			}
+
+		</script>
+	</head>
+
+ <body>
+    <div style="COLOR: green">EXERCICE 4 Chapitre 3 </div>
+    <center>
+		<IMG border=0 height=50  id="0" width=100 src="images/accueil.gif" >
+		<IMG border=0 height=50  id="1" width=100 src="images/liens.gif"   >
+		<IMG border=0 height=50  id="2" width=100 src="images/livre.gif"   >
+		<IMG border=0 height=50  id="3" width=100 src="images/email.gif"   >
+    </center>
+ </body>
+ <script>
+    T=["accueil","liens","livre","email"];
+	for(var i=0;i<=3;i++){    // importance de la déclaration avec let  et  pas var
+		$(i).onmouseover = function(){swapImg(i,"images/"     + T[i] + "1.gif")};
+		$(i).onmouseout  = function(){swapImg(i,"images/"     + T[i] + ".gif") };
+		$(i).onclick     = function(){window.open("pagesExo4/"+ T[i] + ".htm") };
+	}
+
+</script>
+</html>

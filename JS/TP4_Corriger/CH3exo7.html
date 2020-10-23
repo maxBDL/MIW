@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+			<title> CH 3 Exo 7 </title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<script type="text/javascript" src="biblio.js"></script>
+			<script type="text/javascript" >
+				var n=5;  // n = nombre de produits dans la base.
+						  // déclaration et initialisation des tableaux
+				var R=["liste des produits","001","002","003","004","005"];
+				var D=["Imprimante HP","Scanner AGFA ","Moniteur 15 Pouces Smile","Graveur Hitachi","DVD ROM"];
+				var P=[300,200,140,150,110];
+				// affichage des caractéristiques du produit sélectionné dans une fenêtre.
+				function affiche(x){
+
+					// f : nom de la nouvelle fenêtre
+					
+					f=window.open("","","width=300,height=50,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no");
+
+					// écriture dans la fenetre f des caractéristiques du produit selectionné
+					
+					f.document.write("<b>Référence: </b>"+R[x]+"<br><b>Désignation: </b>"+D[x-1]+"<br><b>Prix:</b>"+P[x-1]+" EUROS<br>");
+
+					$("liste").selectedIndex=0;
+				}
+
+				// affichage d'une liste deroulante dynamique contenant les références des produits
+
+				function initialise(){
+						let i ;
+						document.write("Choisir votre produit: <br><form ><select name='liste' id='liste'>")
+						for(i=0;i<D.length;i++){
+							document.write("<option>"+R[i]+"</option>");
+						}
+						document.write("</select></form>");
+						
+						$("liste").onchange=function(){affiche(this.selectedIndex)}
+				}
+			    initialise();
+			</script>
+
+	</head>
+	<body bgcolor="#AFffff" >
+	
+	</body>
+</html >

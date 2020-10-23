@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> CH 3 Exo 11 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="biblio.js"></script>
+
+    <script type="text/javascript">
+        function amortiz() { 	// déclaration et initialisation des variables
+
+            let mt = $("mt").value;
+            let tm = $("tm").value;
+            let d = $("du").value;
+
+            let mensualite;     // montant de la mensualité
+            let mensAr;        // montant de la mensualité arrondi 2 chiffres aprés la virgule
+            let mtAr;        // montant restant du arrondi 2 chiffres aprés la virgule
+            let interAr;        // montant de intérets arrondi 2 chiffres aprs la virgule
+            let amAr;        // montant des amortissements arrondi 2 chiffres aprés la virgule
+
+            let ch = ``;        // tableau à afficher
+
+            if (!nombrePositif(mt) || !nombrePositif(tm) || !nombrePositif(d)) {
+                alert("saisie non valide");
+                return;
+            }
+
+            mensualite = mt * tm / (1 - Math.pow((1 + tm * 1), -d));  // calcul de la mensualité
+
+            mensAr = mensualite.toFixed(2);
+
+            // affichage du tableau d'amortissement
+
+            ch += `<b> mensualité = </b>
+				       <b> ${mensAr}  euros</b><br><br>
+				       <table border=1>
+				       <tr><th>période</th><th>restant du</th><th>intéret </th><th>amortissement </th><th>mensualite </th></tr>`;
+
+            for (i = 1; i <= d; i++) {
+                mtAr = (mt * 1).toFixed(2);
+                interAr = (mt * tm).toFixed(2);
+                amAr = (mensualite - (mt * tm)).toFixed(2);
+
+                ch += `<tr><td> ${i} </td><td> ${mtAr} </td><td> ${interAr} </td><td><font color='red'><center> ${amAr}</center></font></td><td> ${mensAr}</td></tr>`;
+
+                mt -= (mensualite - (mt * tm));     // nouveau montant restant dû
+            }
+
+            ch += `</table>`;
+
+            $("table").innerHTML = ch;
+        }
+    </script>
+</head>
+<body>
+<form>
+    <label>montant de l'emprunt : <input type="text" name="mt" id="mt" value="150000"> </label>
+    <label>taux mensuel : <input type="text" name="tm" id="tm" value="0.004"> </label>
+    <label>durée en mois : <input type="text" name="du" id="du" value="240"> </label>
+
+    <input type="button" Value="exécuter" Id="bt">
+</form>
+<span id="table"></span>
+<br>
+</body>
+</html>
+<script>
+    $("bt").onclick = amortiz;
+</script>

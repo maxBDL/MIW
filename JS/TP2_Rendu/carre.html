@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+
+    <body>
+    <a href="menu.html">< Retour</a>
+    <script>
+        function carre(){
+            var nb = 0;
+            document.write("<table>");
+            for (let i = 1; i <=5 ; i++) {
+                document.write("<tr>");
+                for (let j = 1; j <= 10 ; j++) {
+                    nb  ++;
+                    document.write("<td>"+(nb*nb)+"</td>");
+
+                }
+                document.write("</tr>");
+            }
+
+            for (let i = 1; i <= 50; i++) {
+                console.log(i*i);
+            }
+        }
+
+        carre();
+    </script>
+    </body>
+</html>

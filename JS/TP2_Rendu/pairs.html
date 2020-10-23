@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <a href="menu.html">< Retour</a>
+        <script>
+            function entierPositif(n) {
+                return RegExp("^[+]?\[0-9]*$").test(n);
+            }
+
+            function pair(x){
+                return (entierPositif(x) && (x%2) == 0 ) ? true : false;
+            }
+
+            function nbPairs(nb1, nb2){
+                document.write("<table>");
+                for (let i=nb1; i <= nb2; i++){
+                    if (pair(i)){
+                        document.write("<td>"+i+"</td>");
+                    }
+                }
+                document.write("</table>");
+            }
+
+            nb1 = prompt("Nombre 1");
+            nb2 = prompt("Nombre 2");
+            nbPairs(nb1, nb2);
+        </script>
+    </body>
+</html>

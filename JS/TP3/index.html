@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Leaflet</title>
+        <link rel="stylesheet" href="style.css">
+        <!--
+        Inclusion de la bibliothèque Leaflet et sa feuille de style.
+        -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+              integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""
+        />
+        <!—Insérer leaflet.js après sa feuille de style -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
+        </script>
+        <!-- Une feuille de style personnelle éventuellement
+        <link rel="stylesheet" href="style.css">
+        -->
+    </head>
+    <body>
+        <h1>Afficher une carte avec Leaflet</h1>
+        <form>
+            <select id="ville" onchange="afficheVille()">
+                <option disabled selected>Choisir</option>
+                <option value="44.566667:6.083333">Gap</option>
+                <option value="43.696036:7.265592">Nice</option>
+                <option value="48.856614:2.352221">Paris</option>
+            </select>
+        </form>
+        <div id="maCarte"></div>
+    <button onclick="afficheMarker()" id="btnM">Affiche marker</button>
+    </body>
+    <script src="script.js"></script>
+</html>

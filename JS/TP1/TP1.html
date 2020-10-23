@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EXERCICES JS</title>
+</head>
+<body>
+    <h1>Exercies JS</h1>
+
+    <!--<h2>Exercice 1</h2>
+    <a onclick="alert('Bienvenue dans mon site')">Ouverture</a>
+
+    <h2>Exercice 2</h2>
+    <h2>Exercice 3</h2>-->
+    <script>
+        //rep = confirm("Voulez vous continuez ?");
+        //console.log(rep);
+    </script>
+
+    <script>
+        /*t = [
+            "maxime.didier@aol.com",
+            "maxime?didier@aol.com",
+            "maxime-didier@aol.com",
+            "maxime-didier@a.olcom",
+            "tom@aol.com",
+            "quentin@orange.fr",
+            "paul@gmail.com",
+            "george?/@orange.fr",
+            "george@ornage.fr",
+            "george@orange.rf",
+            "george@orange.?"
+
+        ];
+
+
+        function mails(t){
+            operateur = prompt("Entrez votre opérateur");
+            var reg = RegExp("[a-z0-9-_.]+@"+operateur+"[.](com|fr|org|net)","gi");
+            mail = t.join("\n");
+            return(mail.match(reg));
+        }
+
+        console.log("Ex 4")
+        console.log(mails(t));*/
+    </script>
+
+    <h2>Exercice 5</h2>
+    <script>
+        //alert("Date de dernière mise à jour: " + Date.now()+ "\n" + "URL: " + window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search)
+    </script>
+
+    <h2>Exercice 6</h2>
+    <script>
+        /*np = prompt("Entrez: NOM PRENOM");
+        console.log(np);
+        np = np.split(" ");
+        console.log(np);
+        nom = np[0].toUpperCase();
+        prenom = np[1].charAt(0).toUpperCase()+np[1].substring(1);
+        alert("Bonjour "+nom+" "+prenom);*/
+    </script>
+
+    <h2>Exercice 7</h2>
+    <!--<img src="../../../../Users/MIW/Downloads/freerider-498473.jpg" height="1302" width="2012" onmouseover="alert('ok')" onmouseout="alert('no')"/>-->
+
+    <h2>Exercice 8</h2>
+    <script>
+        document.write(navigator.appName+"<br>");
+        document.write(navigator.appVersion+"<br>");
+        document.write(navigator.language+"<br>");
+        document.write(navigator.platform);
+    </script>
+
+    <h2>Exercice 9</h2>
+    <script>
+        /*function myFunction() {
+            var num = prompt("Entrez un réel");
+            var num2 = prompt("Entrez un deuxieme reel");
+            var somme =  parseFloat(num + num2);
+            var n = somme.toFixed(2);
+            document.getElementById("demo").innerHTML = n;
+        }
+        myFunction();*/
+    </script>
+
+    <h2>Exercice 10</h2>
+    <script>
+        /*function dateAffich(){
+            today = new Date();
+            dd = String(today.getDate()).padStart(2, '0');
+            mm = String(today.getMonth() + 1).padStart(2, '0');
+            yyyy = today.getFullYear();
+            hours = today.getHours();
+            minutes = today.getMinutes();
+            ampm = hours >= 12 ? 'pm' : 'am';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            minutes = minutes < 10 ? '0'+minutes : minutes;
+            strTime = hours + ':' + minutes + ampm;
+
+            document.write("Date: "+dd+"/"+mm+"/"+yyyy+" It's: "+strTime +"<br>")
+        }
+
+        setInterval(dateAffich, 1000);*/
+    </script>
+
+    <h2>Exercice 11</h2>
+    <script>
+        /*chaine = prompt("Entrez des mots séparé par \"_\" ");
+        var re =/-/gi;
+        console.log(chaine.replace(re, '/'));*/
+    </script>
+
+    <h2>Exercice 12</h2>
+    <script>
+        /*var nom =prompt("Entrez votre nom");
+        document.write("Bonjour "+nom);
+        document.write("<h1>Bonjour "+nom+"</h1>");
+        document.write("<h1 style='color: blueviolet; background-color: tomato'>Bonjour "+nom+"</h1>");
+*/
+    </script>
+
+    <h2>Exercice 13</h2>
+    <h2>Exercice 14</h2>
+    <script>
+        T = [45, 48, 89, 78];
+        V = [110, 128, 129, 178];
+        var nb = parseInt(prompt("Entrez un nb"));
+        T.push(nb);
+        var nb2 = parseInt(prompt("Entrez une nouvelle valeur"));
+        V.splice(0, 0, nb2);
+        console.log(T);
+        console.log(V);
+        Z =  T.concat(V);
+        console.log(Z);
+        Z.splice(0, 2);
+        Z.splice((Z.length-1), 2);
+        console.log(Z);
+    </script>
+</body>
+</html>

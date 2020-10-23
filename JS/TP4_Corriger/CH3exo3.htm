@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<title> CH 3 Exo 3 </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="biblio.js" ></script>
+		<script type="text/javascript">
+			function fe(){
+					 let  val = $("f").value;
+					 if (!nombre(val)) {
+								alert("taper le montant en francs"); $("f").focus();}
+						else	$("e").value=(val/6.55987).toFixed(2)
+			}
+			function ef(){
+					 let val = $("e").value ;
+					 if (!nombre(val)) {
+								alert("taper le montant en euros");$("e").focus();}
+						else	$("f").value=(val*6.55987).toFixed(2)
+							 
+			}
+		</script>
+	</head>
+<body>
+
+	<form>
+		  <label>Valeur en francs : <input TYPE="TEXT" NAME="franc"  id="f" onFocus='this.value="";this.form.euro.value="";' ></label><BR>
+		  <label>Valeur en Euros  : <input TYPE="TEXT" NAME="euro"   id="e" onFocus='this.form.franc.value="";this.value="";'></label><BR>
+		  <input TYPE="BUTTON" VALUE="Franc-Euro" id="fe">
+		  <INPUT TYPE="BUTTON" VALUE="Euro-Franc" id="ef">
+		  <BR>
+	</form>
+
+</body>
+<script>
+	$("fe").onclick= fe;
+	$("ef").onclick= ef;
+</script>
+</HTML>

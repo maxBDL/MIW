@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> CH 3 Exo 8 </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <script src="biblio.js"></script>
+
+    <script>
+
+        var t = new Array();      // t: tableau contenant les produits
+
+        // initialisation du tableau t
+        t = [
+            {"num": null, "nom": null, "prix": null},
+            {"num": 1, "nom": "imprimante a jet d'encre hp", "prix": 2000},
+            {"num": 2, "nom": "graveur hitachi", "prix": 1800},
+            {"num": 3, "nom": "cd rw", "prix": 150},
+            {"num": 4, "nom": "moniteur smile 17 \"", "prix": 2200}];
+
+        var nb = t.length - 1;   // nb-1: nombre de produits dans le tableau.
+
+        /* fonction permettant d'afficher le produit n à l'ecran */
+        function display(n) {
+            $("ref").value = t[n].num;
+            $("des").value = t[n].nom
+            $("prix").value = t[n].prix;
+            $("qt").value = "";
+            $("mt").value = "";
+        }
+
+        /* fonction permettant de recalculer le montant */
+        function calculate() {
+            $("mt").value = $("prix").value * $("qt").value;
+        }
+
+        /* affichage du contenu du select */
+        function init() {
+            var ch = `<option>selectionner un produit</option>`;   // chaine contenant les options du select
+            for (var i = 1; i <= nb; i++) {
+                ch += `<option> ${t[i].nom}</option>`;
+            }
+
+            $("liste").innerHTML = ch;                            // affichage des options de la liste déroulante
+            // ATTENTION ne jamais modifier la propiété innerHTML avec une information saisie par l'internaute
+            listeners();
+        }
+
+        /* mise en place des écouteurs */
+        function listeners() {
+            $("liste").onchange = function () {
+                display(this.selectedIndex);
+            }
+
+            $("bt1").onclick = function () {
+                if ($("ref").value != '') {
+                    $("qt").value++;
+                    calculate();
+                }
+            }
+            $("bt2").onclick = function () {
+                if (this.form.qt.value > 0) {
+                    $("qt").value--;
+                    calculate();
+                }
+            }
+        }
+
+        onload = init;
+
+
+    </script>
+</head>
+<body bgcolor="#afffff">
+<form>
+    <p>
+        <select name="liste" id="liste">
+        </select>
+    </p>
+    <label>reférence: <input type="text" name="ref" id="ref" size="5" disabled></label>
+    <label>designation: <input type="text" name="des" id="des" size="35" readonly></label>
+    <label>prix: <input type="text" name="prix" id="prix" size="6" readonly></label>
+    <label>quantite: <input type="text" name="qt" id="qt" size="5" readonly></label>
+    <label>montant: <input type="text" name="mt" id="mt" size="8" readonly></label>
+    <input type="button" id="bt1" value="+">
+    <input type="button" id="bt2" value="-">
+</form>
+</body>
+</html>

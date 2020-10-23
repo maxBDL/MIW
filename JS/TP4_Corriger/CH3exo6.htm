@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+			<title> CH 3 Exo 6 </title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<script type="text/javascript" src="biblio.js"></script>
+			<script type="text/javascript">
+			<!--
+			function affiche(){
+			  let mes;  // message à afficher
+			  let val = $("chaine");			  
+			  if (val.value == "") mes = "veuillez saisir une chaine de caractères"
+				  else{ val =  compresse(val.value," ")   //suppression des espaces dans la chaine saisie
+						if 	(val == val.reverse()) mes = "C'est un palindrome";
+							else                   mes = "Ce n'est pas un palindrome";         
+					  }
+			   $("chaineInv").value = mes;
+			}
+			</script>
+    </head>
+    <body>
+        <form>
+		  <fieldset><legend>Recherche d'un palindrome</legend>	
+			  <p><label>Saisir une chaine de caractères : </label> <input type="text" name="chaine" id="chaine" size="60" ></label></p>
+			  <p><input type="button" id="bt"     value="tester"></p>
+			  <p><label>Résultat : </label><input type="text" name="chaineInv" id="chaineInv" size="60" readonly="readonly"></label></p>
+		  </fieldset>
+        </form>
+    </body>
+</html>
+<script>
+	$("bt").onclick=affiche;
+</script>

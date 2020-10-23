@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> CH 3 Exo 9 </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="exercice sur le javascript"/>
+    <meta name="author" content="roland grosso"/>
+
+    <script type="text/javascript" src="biblio.js"></script>
+    <script type="text/javascript">
+
+        /* fonction permettant d'afficher la page correspondant aux choix */
+        function display() {
+            let z = $("l1").value + $("l2").value;
+            window.open(z);
+        }
+    </script>
+</head>
+<body>
+
+<form>
+    <select name="l1" id="l1">
+        <option value="pagesexo9/p_"> portes</option>
+        <option value="pagesexo9/f_"> fenêtres</option>
+        <option value="pagesexo9/v_"> volets</option>
+    </select>
+
+    <select name="l2" id="l2">
+        <option value="bois.htm"> bois</option>
+        <option value="pvc.htm"> pvc</option>
+        <option value="alu.htm"> aluminium</option>
+    </select>
+    <input type="button" value="afficher" id="bt">
+
+</form>
+</body>
+</html>
+<script>
+    $("bt").onclick = display;
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <a href="menu.html">< Retour</a>
+     <script>
+         function tableDe(nb){
+             document.write("<table>");
+             if (nb<2 || nb >9){
+                 alert("Veuiller mettre en 2 et 9");
+             }else{
+                 for (let i=1; i <= 10; i++){
+                     document.write("<tr>");
+                     document.write("<td>"+i+"x"+nb+"</td>");
+                     document.write("<td>"+i*nb+"</td>");
+                     document.write("</tr>");
+                 }
+                 document.write("</table>");
+             }
+         }
+
+         nb = prompt("Table de ? (entre 2 et 9");
+         document.write("<h1>Table de "+nb+"</h1>")
+         tableDe(nb);
+     </script>
+    </body>
+</html>

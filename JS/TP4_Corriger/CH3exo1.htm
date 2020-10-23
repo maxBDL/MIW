@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<title> CH 3 Exo 1 </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="biblio.js" ></script>
+		
+		<script type="text/javascript">
+			function afficheLongueur(){
+				let reg = /%0A|%0D/g;                      
+				let ch=decodeURIComponent(encodeURIComponent($("ta").value).replace(reg,""));   // decoceURIcomponent() obligatoire pour  remplacer par exemple %20 par ' '
+				// équivalent :  var reg = /\n|\r/g;  ch=ch.replace(reg,"") ;
+				// équivalent :  var reg = new RegExp("(\\r|\\n)", "g" ); ch=ch.replace(reg,"");
+				$("nc").value=ch.length;  																
+			}
+			onload = function(){$("ta").focus();}    // évite de mettre l'attribut  onload dans la balise body>    
+		
+		</script>
+	</head>
+	<body bgcolor="#AAA" >
+        <form id="f1">
+		   <fieldset><legend> Exercice 1 Chapitre 3</legend>
+				<p><label> Veuillez saisir un texte sur plusieurs lignes : 
+					<textarea name = "ta"     id="ta"          cols   ="40" rows="12" ></textarea>
+				</label></p>
+              
+				<p><label> Nombres de caractères saisis :  
+					<input    type = "text"   name="nc"        id="nc"      size="10" maxlength="10" readonly>
+				</label></p>
+              
+			  <p><input type = "reset"  value="RAZ"></p>
+              <p><input type = "button" value="Longueur" id="bt" ></p>
+           
+		   </fieldset>
+		</form>
+	</body>
+</html>
+<script>
+     $("bt").onclick = afficheLongueur;
+</script>

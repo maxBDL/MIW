@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Exercice Chapitre 3</h1>
+        <h2>Exercice 1</h2>
+        <textarea name="textArea"></textarea>
+        <p name="text"></p>
+        <button name="raz" onclick="effacer();">RAZ</button>
+        <button name="longueur" onclick="size();">Longueur</button>
+
+        <h2>Exercice 2</h2>
+        <form id="form" onsubmit="return verifForm();">
+            <fieldset>
+                <label for="nm">Nom</label><br>
+                <input type="text" id="nm" name="name" value="m"><br>
+                <label for="pn" >Prenom</label><br>
+                <input type="text" id="pn" name="prenom" value="m"><br>
+                <label for="rue">Rue</label><br>
+                <input type="text" id="rue" name="rue" value="m"><br>
+                <label for="cp">Code Postal</label><br>
+                <input type="number" id="cp" name="code" value="325"><br>
+                <label for="ville">Ville</label><br>
+                <input type="text" id="ville" name="ville" value="m"><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="email" value="m@dsg" pattern="[a-z0-9-_.]+@(orange|hotmail|gmail|aol)[.](com|fr|org|net)" title="Veuillez entrer une vraie adresse mail"><br>
+                <label for="numTel">Numero de Téléphone</label><br>
+                <input type="tel" id="numTel" name="numTel" value="310313"><br>
+                <button type="submit">Verification</button>
+            </fieldset>
+        </form>
+
+        <h2>Exercice 3</h2>
+        <form>
+            <fieldset>
+                <legend>Franc-Euro</legend>
+                <label >Choisissez votre conversion: </label><br>
+                <input type="radio" id="convFE" name="conv" value="fe" checked>
+                <label for="convFE">Franc-Euro</label>
+                <input type="radio" id="convEF" name="conv" value="ef">
+                <label for="convEF">Euro-Franc</label><br>
+                <label for="nb">Franc</label><br>
+                <input type="number" id="nb" name="nb"><br>
+                <label for="result" >Euro</label><br>
+                <input type="number" id="result" name="resultat" disabled><br>
+                <button onclick="conversion()">Conversion</button>
+            </fieldset>
+        </form>
+
+
+        <h2>Exercice 4</h2>
+        <li>
+            <ul><a href="#">ACCUEIL</a></ul>
+            <ul><a href="#">LIENS</a></ul>
+            <ul><a href="#">LIVRE D'OR</a></ul>
+            <ul><a href="#">E-MAIL</a></ul>
+        </li>
+    </body>
+</html>

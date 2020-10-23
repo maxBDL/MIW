@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OK</title>
+    </head>
+    <body>
+        <a href="menu.html">< Retour</a>
+        <form>
+            <label>Nom:</label>
+            <input type="text" name="nm"><br>
+            <label>Prenom:</label>
+            <input type="text" name="pn"><br>
+            <label>Date de Naissance:</label>
+            <input type="date" name="date">
+            <input type="submit" onclick="inscription()">
+        </form>
+    <script>
+        function inscription(){
+            var nm = document.getElementsByName("nm")[0].value;
+
+            var pn = document.getElementsByName("pn")[0].value;
+            var dn = document.getElementsByName("date")[0].value;
+            console.log(dn);
+            var dateNaiss =new Date();
+            dateNaiss.setDate(dn.substring(8,11));
+            dateNaiss.setMonth(dn.substring(5,7));
+            dateNaiss.setFullYear(dn.substring(0,4));
+            var tab_jour=new Array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
+
+            alert("Nom: "+nm+" Prenom: "+pn+" Date de naissance "+tab_jour[dateNaiss.getDay()-1]);
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<title> CH 3 Exo 4 </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="biblio.js" ></script>
+		<script type="text/javascript">
+			/* Cette fonction permet de changer la n ième image de la page par le fichier img */
+			function swapImg(n,img){
+			  d ocument.images[n].src=img
+			}
+		</script>
+	</head>
+
+ <body>
+    
+    <div style="COLOR: green">EXERCICE 4 Chapitre 3 </div>
+    <center>
+		<IMG border=0 height=50  id="0" width=100 src="images/accueil.gif" >
+		<IMG border=0 height=50  id="1" width=100 src="images/liens.gif"   >
+		<IMG border=0 height=50  id="2" width=100 src="images/livre.gif"   >
+		<IMG border=0 height=50  id="3" width=100 src="images/email.gif"   >
+    </center>
+ </body>
+ <script>
+ 
+	$("0").onmouseover = function(){swapImg(0,"images/accueil1.gif")};
+	$("0").onmouseout  = function(){swapImg(0,"images/accueil.gif" )};
+	$("0").onclick     = function(){window.open("pagesExo4/accueil.htm")};
+	
+	$("1").onmouseover = function(){swapImg(1,"images/liens1.gif")};
+	$("1").onmouseout  = function(){swapImg(1,"images/liens.gif" )};
+	$("1").onclick     = function(){window.open("pagesExo4/liens.htm")};
+
+	$("2").onmouseover = function(){swapImg(2,"images/livre1.gif")};
+	$("2").onmouseout  = function(){swapImg(2,"images/livre.gif" )};
+	$("2").onclick     = function(){window.open("pagesExo4/livre.htm")};
+
+	$("3").onmouseover = function(){swapImg(3,"images/email1.gif")};
+	$("3").onmouseout  = function(){swapImg(3,"images/email.gif" )};
+	$("3").onclick     = function(){window.open("pagesExo4/email.htm")};	
+	
+
+</script>
+</html>

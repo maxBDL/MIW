@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+			<title> CH 3 Exo 5 </title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<script  src="biblio.js"></script>
+			<Script >
+			function affiche(){
+			  let val = $("chaine");
+			  if (val.value =="") error(3);
+				  else{   
+					  $("chaineInv").value = val.value.reverse();   	// utilisation de la méthode reverse() ajoutée à String dans la bibliothèque
+																		// $("chaineInv").value = val.value.split("").reverse().join("");
+					  val.select();
+				   }
+			}
+			onload = function(){$("chaine").focus()}     
+			</script>
+    </head>
+    <body>
+        <form>
+		  <fieldset><legend>Inverser une chaine de caractères </legend>		
+			  <p><label>Saisir une chaine de caractères : <input type="text" name="chaine" id="chaine" size="60" required></label></p>
+			  <p><input type="BUTTON" id="bt" value="Tester"></p>
+			  <p><label><input type="text" name="chaineInv" id="chaineInv" size="60" readonly="readonly"></label></p>
+		  </fieldset>  
+        </form>
+    </body>
+	
+</html>
+<script>
+	$("bt").onclick=affiche;
+</script>
