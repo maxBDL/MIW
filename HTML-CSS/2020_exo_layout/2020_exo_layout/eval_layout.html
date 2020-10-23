@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<style>
+		.txtcenter {
+			text-align: center;
+		}
+
+		img{
+			width: 100%;
+		}
+
+		/*CSS pour telephone entre 320px et 768px*/
+			.desktopG{
+				visibility: hidden;
+			}
+
+			.desktop{
+				visibility: hidden;
+			}
+
+			.tablette{
+				visibility: hidden;
+			}
+
+			.telephone{
+				visibility: visible;
+			}
+
+			.block{
+				width: 90%;
+				margin: 20px;
+			}
+		
+
+		/*CSS pour tablette entre 769px et 970px*/
+		@media screen and (min-width: 769px){
+			.desktopG{
+				visibility: hidden;
+			}
+
+			.desktop{
+				visibility: hidden;
+			}
+
+			.tablette{
+				visibility: visible;
+			}
+
+			.telephone{
+				visibility: hidden;
+			}
+
+			.row{
+				padding-left: 2%;
+			}
+
+			.block{
+				width: 43%;
+				display: inline-block;
+			}
+		}
+
+		/*CSS pour desktop entre 1024px et 1369px*/
+		@media screen and (min-width: 970px){
+			.desktopG{
+				visibility: hidden;
+			}
+
+			.desktop{
+				visibility: visible;
+			}
+
+			.tablette{
+				visibility: hidden;
+			}
+
+			.telephone{
+				visibility: hidden;
+			}
+		}
+
+		/*CSS pour desktopg entre 1370px et infini*/
+		@media screen and (min-width: 1370px){
+			.desktopG{
+				visibility: visible;
+			}
+
+			.desktop{
+				visibility: hidden;
+			}
+
+			.tablette{
+				visibility: hidden;
+			}
+
+			.telephone{
+				visibility: hidden;
+			}
+
+			.row{
+				padding-left: 5%;
+			}
+
+			.block{
+				width: 20%;
+				display: inline-block;
+			}
+		}
+	</style>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Eval Layout</title>
+		<link rel="stylesheet" href="reset.css">
+	</head>
+	<body>
+		<h1 class="txtcenter">Evaluation  Layout</h1>
+
+		<h2 class="desktopG txtcenter">Vue Desktop > 1370px</h2>
+		<h2 class="desktop txtcenter">Vue Desktop</h2>
+		<h2 class="tablette txtcenter">Vue Tablette à 768px à 970px</h2>
+		<h2 class="telephone txtcenter">Vue Téléphone à 320px</h2>
+
+		<div class="row">
+			<div class="block">
+				<img src="img/mer.jpg">
+			</div>
+			<div class="block">
+				<img src="img/lac.jpg">
+			</div>
+			<div class="block">
+				<img src="img/montagne.jpg">
+			</div>
+			<div class="block">
+				<img src="img/foret.jpg">
+			</div>
+		</div>
+
+
+
+	</body>
+</html>

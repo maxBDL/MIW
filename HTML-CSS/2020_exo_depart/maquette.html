@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+
+            .block{
+                height: 100px;
+                background-color: lightgrey;
+            }
+
+            .centrale{
+                margin:0 auto;
+                width: 80%;
+                height: 300px;
+                background-color: white;
+            }
+
+            .form{
+                height: 100%;
+                width: 48%;
+                background-color: white;
+            }
+
+            .img{
+                float: right;
+                height: 94px;
+                width: 48%;
+                background-color: red;
+            }
+
+            .header{
+                background-color: blue;
+                height: 50px;
+            }
+
+            .header p{
+                line-height: 50px;
+                padding-left: 5%;
+                color: white;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            .titre{
+                background-image: url(img/background.jpg);
+                height: 250px;
+                margin-bottom: 50px;
+            }
+
+            .img img{
+                width: 100%;
+                height: 200px;
+            }
+
+            .block img{
+                height: 100%;
+                float: right;
+            }
+
+            .footer{
+                background-color: #196ba2;
+                height: 50px;
+            }
+
+            .footer p{
+                float: right;
+            }
+
+
+        </style>
+
+        <div class="block header">
+            <p>OhMyCats !</p>
+        </div>
+
+        <div class="block titre">
+            <h1>Adoptez un chat trop bon !</h1>
+        </div>
+
+        <div class="block centrale">
+            <div class="block img">
+                <img src="img/chat.jpg" alt="chat">
+            </div>
+
+            <div class="block form">
+                <fieldset>
+                    <form action="" method="get">
+                        <label for="choix">Choix du chat :</label><br>
+                        <select name="choix" id="choix">
+                            <option selected>-- Sélectionnez --</option>
+                        </select><br><br>
+
+                        <label for="raison">Raison d'adoption :</label><br>
+                        <textarea name="raison" id="raison" cols="30" rows="10" placeholder="Saisissez ici les raison pour lesquelles vous souhaitez adopter ce chat ..."></textarea><br>
+
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="block">
+            <img src="img/tete-chat.png" alt="tete de chat">
+            <h2>Nos chats à adopter...</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus facere cum tempore placeat laborum, repellat sequi magnam, dignissimos animi fuga expedita ducimus aperiam unde? Inventore illo maiores est mollitia repellendus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores corporis reiciendis dicta necessitatibus, quae temporibus cumque voluptatum molestias officia aliquid illo facilis quisquam, laborum accusamus eaque eius libero, id esse?</p>
+        </div>
+
+        <div class="block footer">
+            <p>&copy; OhMyCats</p>
+        </div>
+    </body>
+</html>

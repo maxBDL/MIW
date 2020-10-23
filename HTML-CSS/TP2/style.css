@@ -1,0 +1,51 @@
+@font-face {
+    font-family: titleFont;
+    src: url(./fonts/Sansita_Swashed/SansitaSwashed-Regular.ttf);
+}
+
+@font-face {
+    font-family: paraFont;
+    src: url(./fonts/quicksand/Quicksand_Book.otf);
+}
+
+h2{
+    font-family: titleFont;
+    color: #0056b3;
+    font-size: 3em;
+    text-align: center;
+}
+
+p{
+    font-family: paraFont;
+}
+.block{
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.division2 .block{
+    max-width: 49%;
+    margin: 0 auto;
+}
+
+.division3 .block{
+    max-width: 32%;
+    margin: 0 auto;
+}
+.division2{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.division3{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.division1{
+    width: 75%;
+    margin: 0 auto;
+}
+
