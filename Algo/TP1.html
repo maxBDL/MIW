@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Script 1</h1>
+</body>
+</html>
+<script>
+    function capitalise(c,t,d) {
+        while (d > 0){
+            c = c*t + c;
+            d = d-1;
+            capitalise(c,t,d);
+        }
+        return c;
+    }
+
+    console.log(capitalise(500,0.5,1));
+
+    function doubleCapital(c,t) {
+        d = 0;
+        doublec = c * 2;
+        while (c < doublec){
+            d += 1;
+            c = c*t +c;
+        }
+        return d;
+    }
+
+    console.log(doubleCapital(500,0.5));
+    
+    function estPremier(n) {
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0 && n != i){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function premier(n) {
+        let nbPremiers = [];
+        for (let i=2; i <= n; i++){
+            if (estPremier(i)){
+                nbPremiers.push(i);
+            }
+        }
+        return nbPremiers;
+    }
+
+    console.log(premier(100));
+
+
+    /*function pyramide(n){
+        for (let i=0; i < n; i++){
+            console.log(n);
+        }
+    }*/
+
+    function recherche(t, n) {
+        for (let i = 0; i < t.length; i++) {
+            if (t[i].nom == n){
+                return t[i].age;
+            }else if (t[i].nom == 'fin'){
+                return false;
+            }
+        }
+    }
+
+
+    t = [
+        {nom : "Maxime", age : 19},
+        {nom : "Tom", age : 97},
+        {nom : "Quentin", age : 4},
+        {nom : "Paul", age : 42},
+        {nom : "fin", age : 42}
+    ];
+    console.log(recherche(t, "Quentin"));
+    console.log(recherche(t, "Jim"));
+
+    function rechercheV2(t, n) {
+        ages = [];
+        for (let i = 0; i < t.length; i++) {
+            if (t[i].nom == n){
+                ages.push(t[i].age);
+            }else if (t[i].nom == 'fin'){
+                if (ages.length == 0){
+                    return false;
+                }else{
+                    return ages;
+                }
+            }
+        }
+    }
+
+    tV2 = [
+        {nom : "Maxime", age : 19},
+        {nom : "Tom", age : 97},
+        {nom : "Quentin", age : 4},
+        {nom : "Paul", age : 42},
+        {nom : "Quentin", age : 4},
+        {nom : "Quentin", age : 96},
+        {nom : "Quentin", age : 45},
+        {nom : "Quentin", age : 78},
+        {nom : "fin", age : 42}
+    ];
+
+    console.log(rechercheV2(tV2, "Quentin"));
+    console.log(rechercheV2(tV2, "Paul"));
+    console.log(rechercheV2(tV2, "Jim"));
+
+    function rechercheV3(t, n) {
+        for (let i = 0; i < t.length; i++) {
+            if (t[i].nom > n || t[i].nom == 'fin'){
+                return false;
+            }else if (t[i].nom == n){
+               return t[i].age;
+            }
+        }
+    }
+
+    tV3 = [
+        {nom : "Alain", age : 19},
+        {nom : "Baptiste", age : 97},
+        {nom : "Caleb", age : 4},
+        {nom : "Dimitri", age : 42},
+        {nom : "Eric", age : 4},
+        {nom : "Fabien", age : 96},
+        {nom : "Flora", age : 45},
+        {nom : "François", age : 78},
+        {nom : "fin", age : 42}
+    ];
+
+    console.log(rechercheV3(tV3, "Caleb"));
+    console.log(rechercheV3(tV3, "François"));
+    console.log(rechercheV3(tV3, "Flora"));
+    console.log(rechercheV3(tV3, "Fabien"));
+    console.log(rechercheV3(tV3, "Jim"));
+
+    function dichotomie(t, n, nb) {
+        if (t[(nb/2)].nom > n){
+            for (let i = nb/2; i < nb; i++) {
+                if (t[i].nom == n){
+                    return t[i].age;
+                }else if (t[i].nom == 'fin'){
+                    return false;
+                }
+            }
+        }else{
+            for (let i = 0; i <= nb/2; i++) {
+                if (t[i].nom == n){
+                    return t[i].age;
+                }else if (t[i].nom == 'fin'){
+                    return false;
+                }
+            }
+        }
+    }
+
+    tDichotom = [
+        {nom : "Alain", age : 19},
+        {nom : "Baptiste", age : 97},
+        {nom : "Caleb", age : 4},
+        {nom : "Dimitri", age : 42},
+        {nom : "Eric", age : 4},
+        {nom : "Fabien", age : 96},
+        {nom : "Flora", age : 45},
+        {nom : "fin", age : 42}
+    ];
+    console.log(tDichotom);
+    console.log(dichotomie(tDichotom, "Caleb", 8));
+    console.log(dichotomie(tDichotom, "François", 8));
+    console.log(dichotomie(tDichotom, "Flora", 8));
+    console.log(dichotomie(tDichotom, "Fabien", 8));
+    console.log(dichotomie(tDichotom, "Jim", 8));
+
+    function insere(n, age, t, nb){
+        p = {nom : n, age : age}
+        for (let i = 0; i < nb; i++) {
+            if (t[i].nom > n || t[i].nom == "fin"){
+                t.splice(i, 0, p);
+                return t;
+            }
+        }
+    }
+
+    tInsere = [
+        {nom : "Alain", age : 19},
+        {nom : "Baptiste", age : 97},
+        {nom : "Caleb", age : 4},
+        {nom : "Dimitri", age : 42},
+        {nom : "Eric", age : 4},
+        {nom : "Fabien", age : 96},
+        {nom : "Flora", age : 45},
+        {nom : "François", age : 78},
+        {nom : "fin", age : 42}
+    ];
+
+    console.log(insere("Alain", 8, tInsere, 9));
+</script>
