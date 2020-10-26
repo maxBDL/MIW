@@ -1,10 +1,105 @@
-/* line 1, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
-a {
-  background-color: red;
-  color: aliceblue;
-  direction: ltr;
-  display: block;
-  font-size: 45px;
+/* line 7, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.filtre_vert {
+  background-color: #7AB51D;
+  opacity: 75%;
+}
+
+/* line 12, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.liens_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 15, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.liens_menu a {
+  color: #ffffff;
+  width: 110px;
+  margin: 10px;
+}
+
+/* line 22, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.image_menu {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 27, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.titre_menu {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+/* line 33, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.bandeau_menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 50px;
+}
+
+/* line 38, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.bandeau_menu .cadre_jaune_menu {
+  background-color: #F7CB06;
+  flex-grow: 1;
+}
+
+/* line 42, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.bandeau_menu .logo_ab {
+  height: 50px;
+  width: 50px;
+}
+
+/* line 46, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.bandeau_menu .cadre_vert_menu {
+  background-color: #7AB51D;
+  flex-grow: 1;
+}
+
+/* line 53, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.cadre_jaune_menu h2 {
+  text-align: center;
+}
+
+/* line 56, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.cadre_jaune_menu a {
+  color: #000000;
+}
+
+/* line 62, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.cadre_vert_menu h2 {
+  text-align: center;
+}
+
+/* line 65, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.cadre_vert_menu a {
+  color: #000000;
+}
+
+/* line 70, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.image_fond {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+/* line 76, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.row {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+/* line 80, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.row .cadre_vert {
+  flex-grow: 1;
+  background-color: #7AB51D;
+}
+
+/* line 84, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_menu.scss */
+.row .cadre_jaune {
+  flex-grow: 1;
+  background-color: #F7CB06;
 }
 
 /*# sourceMappingURL=style.css.map */

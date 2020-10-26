@@ -1,7 +1,89 @@
-a{
-  background-color: red;
-  color: aliceblue;
-  direction: ltr;
-  display: block;
-  font-size: 45px;
+$white : #ffffff;
+$red : #ff0000;
+$green : #7AB51D;
+$yellow : #F7CB06;
+$black : #000000;
+
+.filtre_vert{
+  background-color: $green;
+  opacity: 75%;
 }
+
+.liens_menu{
+  display: flex;
+  justify-content: flex-end;
+  a{
+    color: $white;
+    width: 110px;
+    margin: 10px;
+  }
+}
+
+.image_menu{
+  display: flex;
+  justify-content: center;
+}
+
+.titre_menu{
+  display: flex;
+  justify-content: center;
+  color: $white;
+}
+
+.bandeau_menu{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 50px;
+  .cadre_jaune_menu{
+    background-color: $yellow;
+    flex-grow: 1;
+  }
+  .logo_ab{
+    height: 50px;
+    width: 50px;
+  }
+  .cadre_vert_menu{
+    background-color: $green;
+    flex-grow: 1;
+  }
+}
+
+.cadre_jaune_menu{
+  h2{
+    text-align: center;
+  }
+  a{
+    color: $black;
+  }
+}
+
+.cadre_vert_menu{
+  h2{
+    text-align: center;
+  }
+  a{
+    color: $black;
+  }
+}
+
+.image_fond{
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  .cadre_vert{
+    flex-grow: 1;
+    background-color: $green;
+  }
+  .cadre_jaune{
+    flex-grow: 1;
+    background-color: $yellow;
+  }
+}
+

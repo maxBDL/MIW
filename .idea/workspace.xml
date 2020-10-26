@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/DM/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/TP4_Corriger/CH3exo8BIS.htm" beforeDir="false" afterPath="$PROJECT_DIR$/JS/TP4_Corriger/CH3exo8BIS.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/TP2/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/TP2/reset.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +61,8 @@
       <updated>1603454392870</updated>
       <workItem from="1603454393977" duration="1876000" />
       <workItem from="1603538226904" duration="3915000" />
-      <workItem from="1603632089819" duration="17331000" />
+      <workItem from="1603632089819" duration="17596000" />
+      <workItem from="1603718244180" duration="4787000" />
     </task>
     <servers />
   </component>
