@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/TP2/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/TP2/reset.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +17,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Portfolio" />
   </component>
   <component name="ProjectId" id="1jHI3efjnaDzMk1XzQ5UerixG3m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,15 +35,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Portfolio/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MIW\Portfolio\css" />
       <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
     </key>
   </component>
@@ -62,7 +59,10 @@
       <workItem from="1603454393977" duration="1876000" />
       <workItem from="1603538226904" duration="3915000" />
       <workItem from="1603632089819" duration="17596000" />
-      <workItem from="1603718244180" duration="4787000" />
+      <workItem from="1603718244180" duration="5548000" />
+      <workItem from="1603731093743" duration="1223000" />
+      <workItem from="1603732537881" duration="830000" />
+      <workItem from="1603899377057" duration="4705000" />
     </task>
     <servers />
   </component>
