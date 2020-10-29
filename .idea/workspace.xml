@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Portfolio/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DM/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DM/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/DM/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DM/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Portfolio" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jHI3efjnaDzMk1XzQ5UerixG3m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,7 +38,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Portfolio/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Portfolio/font" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -44,6 +47,7 @@
       <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MIW\Portfolio\font" />
       <recent name="C:\wamp64\www\MIW\Portfolio\css" />
       <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
     </key>
@@ -62,7 +66,8 @@
       <workItem from="1603718244180" duration="5548000" />
       <workItem from="1603731093743" duration="1223000" />
       <workItem from="1603732537881" duration="830000" />
-      <workItem from="1603899377057" duration="4705000" />
+      <workItem from="1603899377057" duration="6530000" />
+      <workItem from="1603973699815" duration="6333000" />
     </task>
     <servers />
   </component>

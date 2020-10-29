@@ -1,7 +1,7 @@
 var tProduit = new Array();
 
 tProduit = [
-    {"num" : 0, "nom" : "Sélectionner un produit", "prix" : 150},
+    {"num" : 0, "nom" : "Sélectionner un produit", "prix" : null},
     {"num" : 1, "nom" : "Crosse de Hockey", "prix" : 150},
     {"num" : 2, "nom" : "Casque joueur", "prix" : 50},
     {"num" : 3, "nom" : "Plastron gardin", "prix" : 179}
@@ -34,7 +34,7 @@ function less(n){
 }
 
 function del(n){
-    $("liste"+n).value = tProduit[0].nom;
+    $("liste"+n).value = $("liste"+n).options[0].text;
     $("prix"+n).value = "";
     $("quant"+n).value = "";
     displayMt()
