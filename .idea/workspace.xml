@@ -6,8 +6,10 @@
       <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Italic.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DM/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DM/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DM/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DM/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,8 @@
       <workItem from="1603731093743" duration="1223000" />
       <workItem from="1603732537881" duration="830000" />
       <workItem from="1603899377057" duration="6530000" />
-      <workItem from="1603973699815" duration="6333000" />
+      <workItem from="1603973699815" duration="7091000" />
+      <workItem from="1604073484646" duration="3193000" />
     </task>
     <servers />
   </component>
