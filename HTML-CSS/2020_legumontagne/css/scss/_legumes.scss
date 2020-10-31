@@ -1,0 +1,12 @@
+//Partie producteur de legume
+$white : #ffffff;
+//$red : #ff0000;
+$green : #7AB51D;
+$yellow : #F7CB06;
+$black : #000000;
+
+#legumes{
+  background-color: $green;
+  background-image: url("../img/texte-legumes-de-saison.png");
+  height: 25px;
+}

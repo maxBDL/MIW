@@ -1,11 +1,12 @@
 $white : #ffffff;
-$red : #ff0000;
+//$red : #ff0000;
 $green : #7AB51D;
 $yellow : #F7CB06;
 $black : #000000;
 
+//HEADER
 .bg_photo{
-  height: 512px;
+  height: 630px;
 }
 
 .filtre_vert{
@@ -74,8 +75,9 @@ $black : #000000;
 .image_fond{
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: -1;
+  width: 100%;
 }
 
 .row{
@@ -92,4 +94,3 @@ $black : #000000;
     background-color: $yellow;
   }
 }
-

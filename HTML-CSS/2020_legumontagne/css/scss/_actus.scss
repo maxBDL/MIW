@@ -1,0 +1,25 @@
+//Actualité
+.zone_actualites{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.titre_actu{
+  display: flex;
+  flex-direction: row;
+}
+
+.actu{
+  display: flex;
+  justify-content: center;
+  .image_actu{
+    margin-left: 10%;
+    height: 100%;
+    width: auto;
+  }
+  .texte_actu{
+    margin-left: 3%;
+    width: 80%;
+  }
+}

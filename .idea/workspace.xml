@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_actus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Bold.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Italic.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Regular.ttf" afterDir="false" />
@@ -10,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/2020_legumontagne/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <workItem from="1603732537881" duration="830000" />
       <workItem from="1603899377057" duration="6530000" />
       <workItem from="1603973699815" duration="7091000" />
-      <workItem from="1604073484646" duration="3193000" />
+      <workItem from="1604073484646" duration="10374000" />
     </task>
     <servers />
   </component>
