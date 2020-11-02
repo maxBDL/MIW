@@ -142,11 +142,53 @@
   width: 80%;
 }
 
-/* line 8, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+/* line 7, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
 #legumes {
   background-color: #7AB51D;
   background-image: url("../img/texte-legumes-de-saison.png");
   height: 25px;
+}
+
+/* line 13, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+.zone_legume {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* line 20, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+.presentation_legume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+  width: 30%;
+}
+
+/* line 26, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+.presentation_legume .cadre_vert_titre {
+  background-color: #7AB51D;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+/* line 31, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+.presentation_legume #carousel_legume {
+  width: 60%;
+}
+
+/* line 36, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+.pesticide_legume {
+  position: relative;
+}
+
+/* line 38, ../../../../../wamp64/www/MIW/HTML-CSS/2020_legumontagne/css/scss/_legumes.scss */
+.pesticide_legume .slide-legumes {
+  background-color: #7AB51D;
+  position: absolute;
+  top: 2%;
+  right: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

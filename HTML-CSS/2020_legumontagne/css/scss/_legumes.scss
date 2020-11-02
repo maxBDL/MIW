@@ -1,6 +1,5 @@
 //Partie producteur de legume
 $white : #ffffff;
-//$red : #ff0000;
 $green : #7AB51D;
 $yellow : #F7CB06;
 $black : #000000;
@@ -9,4 +8,37 @@ $black : #000000;
   background-color: $green;
   background-image: url("../img/texte-legumes-de-saison.png");
   height: 25px;
+}
+
+.zone_legume{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.presentation_legume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+  width: 30%;
+  .cadre_vert_titre{
+    background-color: $green;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  #carousel_legume{
+    width: 60%;
+  }
+}
+
+.pesticide_legume{
+  position: relative;
+  .slide-legumes{
+    background-color: $green;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+  }
 }
