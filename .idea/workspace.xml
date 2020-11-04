@@ -1,14 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/font/LibreBaskerville-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CEO-Referencement/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/10C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/10H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/10P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/10T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/11C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/11H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/11P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/11T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/12C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/12H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/12P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/12T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/13C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/13H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/13P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/13T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/1C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/1H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/1P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/1T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/2C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/2H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/2P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/2T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/3C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/3H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/3P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/3T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/4C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/4H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/4P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/4T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/5C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/5H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/5P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/5T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/6C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/6H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/6P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/6T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/7C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/7H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/7P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/7T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/8C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/8H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/8P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/8T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/9C.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/9H.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/9P.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/9T.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/TP5/carte/DOS.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DM/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DM/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/DM/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/DM/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +94,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,18 +111,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML-CSS/Starter/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/TP5/carte" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW\JS\TP5\carte" />
       <recent name="C:\wamp64\www\MIW\HTML-CSS\Starter\css" />
       <recent name="C:\wamp64\www\MIW\Portfolio\font" />
       <recent name="C:\wamp64\www\MIW\Portfolio\css" />
       <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW\CEO-Referencement\css" />
+      <recent name="D:\wamp64\www\MIW\JS\TP5" />
       <recent name="C:\wamp64\www\MIW\HTML-CSS\2020_legumontagne\css" />
     </key>
   </component>
@@ -77,11 +150,26 @@
       <workItem from="1604143884142" duration="640000" />
       <workItem from="1604251074811" duration="8400000" />
       <workItem from="1604307021229" duration="2398000" />
+      <workItem from="1604410368923" duration="617000" />
+      <workItem from="1604416243945" duration="5651000" />
+      <workItem from="1604476926674" duration="2461000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="208" key="EditFileWatcherDialog" timestamp="1603455960404">
