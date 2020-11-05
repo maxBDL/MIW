@@ -118,23 +118,23 @@
 
         <form action="#">
             <label for="nm">Nom :</label>
-            <input id="nm" type="text" name="name"/>
+            <input id="nm" type="text" name="name" required/>
             <br/>
 
             <label for="pn">Prénom :</label>
-            <input id="pn" type="text"/>
+            <input id="pn" type="text" name="prenom" required/>
 
             <br/>
             <label for="societe">Société :</label>
-            <input id="societe" type="text"/>
+            <input id="societe" type="text" name="societe" required/>
 
             <br/>
             <label for="tel">Téléphone :</label>
-            <input id="tel" type="text"/>
+            <input id="tel" type="text" name="telephone" required/>
 
             <br/>
-            <label >Email :</label>
-            <input type="email" name="email" required/>
+            <label for="email">Email :</label>
+            <input id="email" type="email" name="email" required/>
 
             <br/>
             <input type="submit" value="Envoyer"/>
