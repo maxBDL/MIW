@@ -1,4 +1,13 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
+.logo{
+    width: 20%;
+    height: auto;
+}
 
 
 
