@@ -16,6 +16,8 @@ body {
 /*FIN CSS General*/
 
 
+
+
 /*CSS Menu*/
 header{
     width: 100%;
@@ -57,6 +59,9 @@ li a{
 }
 /*FIN CSS Menu*/
 
+
+
+
 /*CSS region top*/
 .region-top{
     display: flex;
@@ -64,84 +69,54 @@ li a{
     overflow: hidden;
 }
 
-
-        /*CSS Article left*/
-        .img-left{
-            width: 100%;
-            height: auto;
-        }
-
-        .region-top a{
-            text-decoration: none;
-            color: white;
-        }
-
-        .content {
-            font-size: 0.79em;
-            display: block;
-            background-color: #ff7043;
-            padding: 0.2em;
-            width: 100%;
-            height: 100px;
-            color: white;
-        }
-
-
-
-
-@media only screen and (min-width: 960px){
-
+/*CSS Article left*/
+.img-left{
+    width: 100%;
+    height: auto;
 }
-/*
 
-#region-top .article-left div {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
+.region-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    font-size: 0.79em;
+    display: block;
     background-color: #ff7043;
-    padding: 2em;
-    width: 300px;
+    padding: 0.2em;
+    width: 100%;
+    height: 100px;
     color: white;
 }
+/*FIN CSS Article left*/
 
-#region-top .article-right {
-    width: 34%;
+
+/*CSS Article right*/
+.article-right {
+    width: 100%;
     background: green;
-    float: right;
+    display: flex;
+    flex-direction: row;
 }
 
-#region-top .article-right article {
-    height: 272px;
-    overflow: hidden;
+.article-right article {
+    width: 50%;
+    height: auto;
 }
 
-#region-top .article-right article div {
+.article-right article div {
     height: 104px;
-    padding: 0 1em 0 1em;
-    font-size: 0.9em;
+    padding: 0 1em;
+    font-size: 0.7em;
 }
 
-#region-top .article-right article img {
-    width: 326px;
-}
-
-#region-top .article-right article h1 {
-    color: white;
-    font-size: 0.9em;
-    margin: 0;
-}
-
-#region-top .article-right article:nth-child(1) {
+.article-right article:nth-child(1) {
     background-color: #c62828;
 }
 
-#region-top .article-right article:nth-child(2) {
+.article-right article:nth-child(2) {
     background-color: #5c6bc0;
-}
-
-ul.tags {
-    margin: 0;
-    padding: 0;
 }
 
 ul.tags li {
@@ -149,8 +124,18 @@ ul.tags li {
 }
 
 ul.tags li a {
-    font-size: 0.9em;
+    font-size: 1em;
+    padding: 0;
 }
+
+@media only screen and (min-width: 960px){
+
+}
+/*
+
+
+
+
 
 #region-main {
     clear: both;
