@@ -1,9 +1,28 @@
-/*Menu CSS*/
+/*CSS General*/
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e0e0e0;
+    color: #424242;
+    font-family: 'RobotoDraft', 'Helvetica Neue', Helvetica, Arial;
+    font-size: 1em;
+    line-height: 1.6;
+}
+.container {
+    width: 360px;
+    margin: auto;
+}
+/*FIN CSS General*/
+
+
+/*CSS Menu*/
 header{
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color: white;
+    padding: 0.2em;
 }
 
 .logo{
@@ -36,67 +55,44 @@ li a{
     text-decoration: none;
     line-height: 2.5;
 }
+/*FIN CSS Menu*/
+
+/*CSS region top*/
+.region-top{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
 
 
-/*Body CSS*/
-body {
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #e0e0e0;
-    color: #424242;
-    font-family: 'RobotoDraft', 'Helvetica Neue', Helvetica, Arial;
-    font-size: 1em;
-    line-height: 1.6;
-}
-.container {
-    width: 360px;
-    margin: auto;
-}
+        /*CSS Article left*/
+        .img-left{
+            width: 100%;
+            height: auto;
+        }
+
+        .region-top a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .content {
+            font-size: 0.79em;
+            display: block;
+            background-color: #ff7043;
+            padding: 0.2em;
+            width: 100%;
+            height: 100px;
+            color: white;
+        }
+
+
 
 
 @media only screen and (min-width: 960px){
 
 }
 /*
-
-header nav {
-    float: right;
-    height: 100%;
-    position: relative;
-}
-
-header nav a {
-    box-sizing: border-box;
-    display: inline-block;
-    padding: 1.5em 1.5em;
-    color: #37474f;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 2.5;
-    margin: 0;
-}
-
-header nav a:hover {
-    background: #37474f;
-    color: #fff;
-}
-
-#region-top {
-    height: 544px;
-    overflow: hidden;
-}
-
-#region-top a {
-    text-decoration: none;
-    color: white;
-}
-
-#region-top .article-left {
-    float: left;
-    width: 66%;
-    position: relative;
-}
 
 #region-top .article-left div {
     position: absolute;
