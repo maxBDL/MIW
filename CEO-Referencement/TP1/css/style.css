@@ -99,9 +99,9 @@ li a{
     display: flex;
     flex-direction: row;
 }
-/*FIN CSS Article right*/
 
-/*FIN CSS*/
+
+
 
 .article-right article {
     width: 50%;
@@ -129,6 +129,41 @@ ul.tags li {
 ul.tags li a {
     font-size: 1em;
     padding: 0;
+}
+/*FIN CSS article right*/
+
+/*FIN CSS region top*/
+
+
+
+
+/*CSS region main*/
+.region-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.region-main article{
+    display: flex;
+    flex-direction: row;
+    padding: 2.5em;
+}
+
+.region-main img{
+    width: 33%;
+    height: auto;
+}
+
+.region-main article div {
+    height: 104px;
+    padding: 0 1em;
+    font-size: 0.7em;
+}
+
+.region-main h2{
+    text-align: center;
+    font-size: 1.2em;
 }
 
 @media only screen and (min-width: 960px){
