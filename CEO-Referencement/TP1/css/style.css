@@ -220,7 +220,28 @@ footer {
     height: 50px;
 }
 
+@media only screen and (min-width: 768px){
+    .region-top{
+        flex-direction: row;
+    }
 
-@media only screen and (min-width: 960px){
+    .article-left{
+        width: 66%;
+    }
 
+    .article-right{
+        flex-direction: column;
+        width: 33%;
+    }
+    .region-main{
+        float: left;
+        padding: 0;
+        width: 66%;
+    }
+    .region-sidebar{
+
+        width: 33%;
+        margin: 0;
+        padding: 5%;
+    }
 }

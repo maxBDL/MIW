@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Exercice 3</title>
 </head>
-<body>
-$END$
+<script>
+    /* $(n) : raccourci pour atteindre un noeud HTML                                           */
+    $ = (n)=>{return document.getElementById(n)};
+
+
+    function display(x,y){
+        $("body").innerHTML = ' <div id="convertisseur" style="background-color: red; width: 500px; height: 500px;position: absolute; top: "'+y+'"px; left: "'+x+'"px;"> <form> <label for="dec" id="decLabel">Decimal</label> <input type="text" id="dec" name="dec"> <button type="button" id="close">X</button><br> <label for="result" id="resultLabel"></label> <input type="text" id="result" name="result" readonly><br> <button type="button" id="binBtn">Binaire</button> <button type="button" id="hexBtn">Hexadecimal</button> <button type="button" id="resBtn">Reset</button> </form> </div>';
+        listeners();
+    }
+
+   function dB(n){
+       $("resultLabel").innerText = "Binaire";
+       if (typeof(parseInt(n)) == "number"){
+           $("result").value = parseInt(n).toString(2);
+           return false;
+       }else{
+           $("result").value = "Erreur";
+           return false
+       }
+    }
+
+    function dH(n){
+        $("resultLabel").innerText = "Hexadecimal";
+        if (typeof(parseInt(n)) == "number"){
+            $("result").value = parseInt(n).toString(16);
+            return false;
+        }else{
+            $("result").value = "Erreur";
+            return false
+        }
+    }
+
+    function reset(n){
+        $("resultLabel").innerText = "";
+        $("result").value = "";
+        $("dec").value = "";
+    }
+
+    function close(){
+        $("body").innerHTML = "";
+    }
+
+    function listeners(){
+        $("binBtn").onclick = function () {
+            dB($("dec").value);
+        }
+
+        $("hexBtn").onclick = function () {
+            dH($("dec").value);
+        }
+
+        $("resBtn").onclick = function () {
+            reset();
+        }
+
+        $("close").onclick = function () {
+            close();
+        }
+    }
+
+    onload = display;
+
+</script>
+<body id="body">
+
+
 </body>
 </html>

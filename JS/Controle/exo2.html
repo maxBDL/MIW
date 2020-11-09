@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Ville</title>
 </head>
+<script>
+    /* $(n) : raccourci pour atteindre un noeud HTML                                           */
+    $ = (n)=>{return document.getElementById(n)};
+
+
+    V= [
+        {"ville" : "Selectionner une ville", "population" : null, "dep" : null},
+        { "ville": "Gap" , "population":40776, "dep" : "05"},
+        { "ville": "Nice", "population":342500,"dep" : "06"}
+    ];
+
+    //affiche les infos de la ville selectionné
+    function display(n) {
+        $("pop").value = V[n].population;
+        $("dep").value = V[n].dep;
+    }
+
+    //initialise la liste de ville
+    function initList() {
+        var ch = `<option>Selectionner une ville</option>`;
+        for (var i = 1; i <= V.length-1 ; i++) {
+            ch += `<option> ${V[i].ville}</option>`;
+        }
+        $("liste").innerHTML = ch;
+        listeners();
+    }
+
+    function listeners() {
+        //Listener du select
+        $("liste").onchange = function () {
+            display(this.selectedIndex);
+        }
+    }
+
+
+
+    onload = initList;
+
+</script>
 <body>
-$END$
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ville</th>
+                    <th>Population</th>
+                    <th>Departement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><select name="liste" id="liste"></select></td>
+                    <td><input type="text" name="pop" id="pop" disabled></td>
+                    <td><input type="text" name="dep" id="dep" disabled></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
 </body>
 </html>
