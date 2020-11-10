@@ -24,7 +24,9 @@ header{
     display: flex;
     flex-direction: row;
     background-color: white;
-    padding: 0.2em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
 }
 
 .logo{
@@ -141,6 +143,7 @@ ul.tags li a {
 .region-main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
@@ -152,7 +155,7 @@ ul.tags li a {
 
 .region-main img{
     width: 33%;
-    height: auto;
+    height: 100%;
 }
 
 .region-main article div {
@@ -220,7 +223,10 @@ footer {
     height: 50px;
 }
 
-@media only screen and (min-width: 768px){
+
+
+/*CSS Ecran tablette*/
+@media (min-width: 768px){
     .region-top{
         flex-direction: row;
     }
@@ -232,16 +238,56 @@ footer {
     .article-right{
         flex-direction: column;
         width: 33%;
+        height: 100%;
     }
+
+    .article-right article{
+        width: 100%;
+    }
+
+    .article-right article div{
+        height: 50%;
+    }
+
+
+
     .region-main{
         float: left;
         padding: 0;
         width: 66%;
     }
     .region-sidebar{
-
         width: 33%;
         margin: 0;
         padding: 5%;
+    }
+}
+
+/*CSS desktop*/
+@media (min-width: 1200px) {
+    .logo{
+        width: 25%;
+        height: auto;
+        padding: 0.7em;
+    }
+
+    header{
+        width: 99%;
+    }
+    nav{
+        width: 100%;
+    }
+
+    .link_menu{
+        justify-content: flex-end;
+    }
+
+    .link_menu li{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .container{
+        width: 75%;
     }
 }
