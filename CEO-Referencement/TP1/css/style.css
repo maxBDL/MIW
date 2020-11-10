@@ -290,4 +290,12 @@ footer {
     .container{
         width: 75%;
     }
+
+    .region-main h2{
+        font-size: 2em;
+    }
+
+    .region-main p{
+        font-size: 1.4em;
+    }
 }
