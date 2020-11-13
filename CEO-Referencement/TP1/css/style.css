@@ -9,17 +9,17 @@ body {
     font-size: 1em;
     line-height: 1.6;
 }
+
 .container {
     width: 100%;
     margin: auto;
 }
+
 /*FIN CSS General*/
 
 
-
-
 /*CSS Menu*/
-header{
+header {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -29,17 +29,17 @@ header{
     padding-top: 0.2em;
 }
 
-.logo{
+.logo {
     width: 48%;
     height: auto;
     padding: 0.7em;
 }
 
-nav{
+nav {
     width: 48%;
 }
 
-.link_menu{
+.link_menu {
     display: flex;
     list-style-type: none;
     flex-direction: row;
@@ -48,7 +48,7 @@ nav{
     padding: 0;
 }
 
-li a{
+li a {
     width: 20%;
     box-sizing: border-box;
     display: inline-block;
@@ -59,25 +59,24 @@ li a{
     text-decoration: none;
     line-height: 2.5;
 }
+
 /*FIN CSS Menu*/
 
 
-
-
 /*CSS region top*/
-.region-top{
+.region-top {
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 
 /*CSS Article left*/
-.img-left{
+.img-left {
     width: 100%;
     height: auto;
 }
 
-.region-top a{
+.region-top a {
     text-decoration: none;
     color: white;
 }
@@ -91,6 +90,7 @@ li a{
     height: 100px;
     color: white;
 }
+
 /*FIN CSS Article left*/
 
 
@@ -101,8 +101,6 @@ li a{
     display: flex;
     flex-direction: row;
 }
-
-
 
 
 .article-right article {
@@ -132,28 +130,27 @@ ul.tags li a {
     font-size: 1em;
     padding: 0;
 }
+
 /*FIN CSS article right*/
 
 /*FIN CSS region top*/
 
 
-
-
 /*CSS region main*/
-.region-main{
+.region-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 
-.region-main article{
+.region-main article {
     display: flex;
     flex-direction: row;
     padding: 2em;
 }
 
-.region-main img{
+.region-main img {
     width: 33%;
     height: 100%;
 }
@@ -164,7 +161,7 @@ ul.tags li a {
     font-size: 0.7em;
 }
 
-.region-main h2{
+.region-main h2 {
     text-align: center;
     font-size: 1.2em;
 }
@@ -173,13 +170,12 @@ ul.tags li a {
     text-decoration: none;
     color: #1875d1;
 }
+
 /*FIN CSS region main*/
 
 
-
-
 /*CSS Formulaire*/
-.region-sidebar{
+.region-sidebar {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -224,39 +220,38 @@ footer {
 }
 
 
-
 /*CSS Ecran tablette*/
-@media (min-width: 768px){
-    .region-top{
+@media (min-width: 768px) {
+    .region-top {
         flex-direction: row;
     }
 
-    .article-left{
+    .article-left {
         width: 66%;
     }
 
-    .article-right{
+    .article-right {
         flex-direction: column;
         width: 33%;
         height: 100%;
     }
 
-    .article-right article{
+    .article-right article {
         width: 100%;
     }
 
-    .article-right article div{
+    .article-right article div {
         height: 50%;
     }
 
 
-
-    .region-main{
+    .region-main {
         float: left;
         padding: 0;
         width: 66%;
     }
-    .region-sidebar{
+
+    .region-sidebar {
         width: 33%;
         margin: 0;
         padding: 5%;
@@ -265,37 +260,38 @@ footer {
 
 /*CSS desktop*/
 @media (min-width: 1200px) {
-    .logo{
+    .logo {
         width: 25%;
         height: auto;
         padding: 0.7em;
     }
 
-    header{
+    header {
         width: 99%;
     }
-    nav{
+
+    nav {
         width: 100%;
     }
 
-    .link_menu{
+    .link_menu {
         justify-content: flex-end;
     }
 
-    .link_menu li{
+    .link_menu li {
         margin-left: 2em;
         margin-right: 2em;
     }
 
-    .container{
+    .container {
         width: 75%;
     }
 
-    .region-main h2{
+    .region-main h2 {
         font-size: 2em;
     }
 
-    .region-main p{
+    .region-main p {
         font-size: 1.4em;
     }
 }

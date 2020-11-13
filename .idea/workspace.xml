@@ -20,57 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/Polices_codes_couleurs.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/accueil_Desktop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/accueil_smartphone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/enercoop-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/logo_ss_texte.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/maquette_article.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/MAQUETTES/maquette_nos_installations.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/20161202_101925.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/IMG_20170121_122143.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/IMG_4106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/IMG_4107.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/P1140365.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/recadrage1_site.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/Photos/recadrage4_site.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/css/scss/_menu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/css/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/Initiative-nord-hautes-alpes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/Initiative-nord-hautes-alpes_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/arton110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/arton124.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/arton82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/enercoop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/enercoop_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/energie-partagee_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/nef_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/omnis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/omnis_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/paca_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/parc-ecrins_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/parc_ecrins.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/syme05_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/udess-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/partenaires/udess-05_logo-seul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/fleche_droite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/fleche_gauche.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/schema_epargne_citoyenne.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/schema_installateurs_pros.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/schema_installation_photovoltaique.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/2020_enercol/svg/schema_production_maison.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol/css/scss/_article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol/css/scss/_article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol/css/style.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/Jeux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Jeux/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,25 +58,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/starter-main" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\JS\TP6" />
-      <recent name="D:\wamp64\www\MIW\PHP\TP5" />
-      <recent name="D:\wamp64\www\MIW\PHP" />
-      <recent name="D:\wamp64\www\MIW\HTML-CSS\Enercol\2020_enercol\svg" />
-      <recent name="D:\wamp64\www\MIW\HTML-CSS\Enercol\2020_enercol\font" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW\HTML-CSS\Starter_HTML" />
       <recent name="D:\wamp64\www\MIW\HTML-CSS\Enercol\2020_enercol" />
       <recent name="D:\wamp64\www\MIW\HTML-CSS\2020_enercol" />
       <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP1\css" />
       <recent name="D:\wamp64\www\MIW\HTML-CSS\2020_exo_menu\css\scss" />
-      <recent name="D:\wamp64\www\MIW\HTML-CSS\2020_exo_menu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW\HTML-CSS\Starter_HTML\js" />
+      <recent name="D:\wamp64\www\MIW\JS\TP6" />
+      <recent name="D:\wamp64\www\MIW\PHP\TP5" />
+      <recent name="D:\wamp64\www\MIW\PHP" />
+      <recent name="D:\wamp64\www\MIW\HTML-CSS\Enercol\2020_enercol\svg" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -163,7 +116,7 @@
       <workItem from="1605122909180" duration="1210000" />
       <workItem from="1605182181904" duration="12484000" />
       <workItem from="1605259024601" duration="6056000" />
-      <workItem from="1605265467284" duration="2111000" />
+      <workItem from="1605265467284" duration="6261000" />
     </task>
     <servers />
   </component>
@@ -195,10 +148,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="469" y="208" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1603455960404" />
-    <state x="580" y="171" key="FileChooserDialogImpl" timestamp="1604258496590">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="696" y="207" key="FileChooserDialogImpl" timestamp="1605272009345">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1604258496590" />
+    <state x="696" y="207" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605272009345" />
     <state x="2873" y="2" width="974" height="1047" maximized="true" key="dock-window-1" timestamp="1604926839739">
       <screen x="1920" y="2" width="1920" height="1040" />
     </state>
