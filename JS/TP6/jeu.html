@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+      
+</head>
+<body>
+
+
+</body>
+</html>
+<script>
+class Jeu{
+  constructor(x,y,c,b){
+
+    this.x	=	x;
+    this.y	=	y;
+    this.c	=	c;
+    this.b	=	b;
+  }
+  display(){
+    // création de la Div principale
+	this.jeu = document.createElement("div");
+	this.jeu.id         			= this	;                    // modification d'attribut
+	this.jeu.style.backgroundColor	= this.c;					 // modification de style
+	this.jeu.style.position 		= "absolute";
+	this.jeu.style.left				= this.x;
+	this.jeu.style.top				= this.y;
+	this.jeu.style.width			= "320px";
+	this.jeu.style.height			= "180px";
+	this.jeu.style.border			= "thick solid " + this.b ;
+
+	
+	// création d'un bouton 
+	this.bt = document.createElement("button");
+	this.bt.style.backgroundColor	= "black";	
+	this.bt.style.position 			= "relative";
+	this.bt.style.left				= "150px";
+	this.bt.style.top				= "80px";
+	this.bt.style.width			    = "30px";
+	this.bt.style.height			= "20px";	
+	
+	this.jeu.appendChild(this.bt);
+	document.getElementsByTagName("body")[0].appendChild(this.jeu);
+	
+	this.bt.onclick = () => this.changeColor();
+  }
+  
+  changeColor(){ 
+	    
+	if  (this.jeu.style.backgroundColor     == this.c) this.jeu.style.backgroundColor = "yellow";
+		 else this.jeu.style.backgroundColor = this.c 
+  }
+  
+}  
+  
+
+let  j1 = new Jeu("100px", "200px", "red","blue");
+let  j2 = new Jeu("300px", "300px", "green","red");
+let  j3 = new Jeu("600px", "0px", "green","red");
+j1.display();
+j2.display();
+j3.display();
+</script>

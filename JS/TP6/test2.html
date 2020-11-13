@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<style>
+
+	</style>
+	<title></title>
+	<script src="miw V 10 11 2020.js"></script>
+
+
+
+</head>
+<body id="bod">
+<p>paragraphe 0</p>
+<p name="z">paragraphe 1</p>
+<h1>H1</h1>
+<p name="z">paragraphe 2</p>
+
+</body>
+</html>
+	<script>
+	
+
+
+    let b,p,h,x;
+	
+	b= document.querySelectorAll("body");
+	console.log(b);	
+	p= document.querySelectorAll("p[name='z']");
+	console.log(p);
+	h= document.querySelectorAll("h1");
+	console.log(h);
+	x= document.querySelectorAll("x");
+	console.log(x);	
+
+	h[0].onclick=()=>alert("h1");
+	
+	//p[0].onclick=()=>{alert("p 0")}
+	//p[1].onclick=()=>{alert("p 1")}	
+	//p[2].onclick=()=>{alert("p 2")}
+	
+	//p.forEach(function(a,b){a.onclick=function(){alert(`p ${b}`)}})	
+	
+	//x.onclick=()=>alert("x");
+	
+	//NodeList.prototype.onclick=function(f){this.forEach(function(a,b){a.onclick=function(){f(a,b)}})}
+
+	//p.onclick((n,m)=>{alert(n+" "+m)})
+	
+	_ct("h2",_cn("H2",null,null,_("#bod")))
+	
+	_cn("h3",{id:"first",name:"first"},{color:"#F00",backgroundColor:"#0F0"},_("#bod")).appendChild(_ct("H3"))
+
+	</script>

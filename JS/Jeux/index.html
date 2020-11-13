@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <script>
+        class Jeu{
+            constructor(x, y, c, b) {
+                this.x = x;
+                this.y = y;
+                this.color = c;
+                this.bordure = b;
+            }
+            display(){
+                this.div = document.createElement("div");
+                //div.setAttribute()
+                this.div.style.backgroundColor = this.color;
+                this.div.style.border = "thick solid "+this.bordure;
+                this.div.style.widht = '500px';
+                this.div.style.height = '250px';
+                this.div.style.borderWidth = '10px';
+                this.div.style.position = 'absolute';
+                this.div.style.top = this.x + 'px';
+                this.div.style.left = this.y + 'px';
+
+
+                //let that = this;
+                this.btn = document.createElement("button");
+                this.btn.style.height = '100px';
+                this.btn.style.widht = '300px';
+
+                this.div.appendChild(this.btn);
+                document.getElementsByTagName("body")[0].appendChild(this.div);
+                this.btn.onclick = () => this.changeColor();
+            }
+            changeColor(){
+                this.div = document.getElementsByTagName("div")[0];
+                let c = this.div.color;
+                let b = this.bordure;
+                this.div.style.backgroundColor = b;
+                this.div.style.borderColor = c;
+            }
+        }
+
+        jeu = new Jeu(50, 150, "#0000ff", "#00ff00");
+        jeu.display();
+    </script>
+
+
+
 </body>
 </html>

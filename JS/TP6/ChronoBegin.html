@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+      
+</head>
+<body>
+</body>
+</html>
+<script>
+
+	class Chrono {
+	  constructor(x,y,c,b){
+
+		this.x	=	x;
+		this.y	=	y;
+		this.c	=	c;
+		this.b	=	b;
+
+		this.heure	=	0;
+		this.minute	=	0;
+		this.seconde=	0;
+		
+		if (Chrono.count==undefined) Chrono.count=0
+			else Chrono.count++
+		
+		this.count=Chrono.count;
+
+	  }
+	 
+	  affiche(){
+
+		  document.write(`
+			<div id=${this.count+"d1"} style="background-color: ${this.c}; position: absolute; left: ${this.x}; top: ${this.y}; width: 320px; height: 180px; border: thick solid ${this.b};">
+				<div id=${this.count+"d2"}  style="background-color: white; position: relative; width: 220px; height: 40px; left: 50px; top: 40px; text-align: center; font-size: 40px;">00 - 00 - 00
+				</div>
+
+				<img id=${this.count+"d3"}  src="btLecture.png" style="position: relative; width: 50px; height: 50px; left: 80px; top: 70px;">
+				<img id=${this.count+"d4"} src="btInit.png" style="position: relative; width: 30px; height: 30px; left: 150px; top: 60px;">
+
+			</div>`)
+			
+			this.afficheur 	= document.getElementById(this.count+"d2");			 
+			this.btLecture 	= document.getElementById(this.count+"d3");
+			this.btInit  	= document.getElementById(this.count+"d4");		
+			
+			this.btLecture.onclick=()=>{
+				this.demarre();
+			};
+			this.btInit.onclick=()=>{this.init()};		
+
+	  }
+
+	  wait(){
+          this.btLecture.src = "btLecture.png";
+          this.btLecture.onclick=()=>{this.demarre()};
+          clearInterval(this.t);
+	  }
+
+	  init(){
+          this.afficheur.innerText = "00 - 00 - 00";
+          this.btLecture.src = "btLecture.png";
+          this.btLecture.onclick=()=>{this.demarre()};
+          clearInterval(this.t);
+          this.heure	=	0;
+          this.minute	=	0;
+          this.seconde=	0;
+	  }
+
+	  demarre(){
+          this.btLecture.src = "btPause.png";
+          this.btLecture.onclick=()=>{this.wait()};
+          this.t=setInterval(()=>{this.actualise_chrono()},1000);
+	  }
+
+	  actualise_chrono(){
+          if(this.seconde == 59 && this.minute == 59){
+              this.seconde = 0;
+              this.minute = 0;
+              this.heure += 1;
+          }else if(this.seconde == 59){
+              this.seconde = 0;
+              this.minute += 1;
+          }else if(this.minute == 59){
+              this.minute = 0;
+              this.heure += 1;
+          }else{
+              this.seconde +=1;
+          }
+          var afficheSec = "00" + this.seconde;
+          var afficheMin = "00" + this.minute;
+          var afficheHeur = "00" + this.heure;
+          //console.log(afficheHeur.length-1);
+          this.afficheur.innerText = afficheHeur.slice(afficheHeur.length-2) + " - " + afficheMin.slice(afficheMin.length-2) + " - " + afficheSec.slice(afficheSec.length-2);
+          //00+nbseconde.slice(2derniers )
+	  }
+
+
+
+	}
+
+
+	const c1 = new Chrono("100px", "200px", "red","blue");
+	const c2 = new Chrono("500px", "300px", "green","black");
+	const c3 = new Chrono("500px", "100px", "blue","Yellow");
+
+	c1.affiche();
+	c2.affiche();
+	c3.affiche(); 
+
+</script>
