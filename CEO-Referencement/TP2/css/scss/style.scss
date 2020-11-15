@@ -1,17 +1,48 @@
 @import "reset", "flaticon";
 
 /*Definition des couleurs*/
-$grey : #3E4249;
-$white : #FFFFFF;
+$grey: #3E4249;
+$white: #FFFFFF;
 /*FIN Definition des couleurs*/
 
+/*CSS de base*/
+html, body {
+  height: 95%;
+
+  .container_body {
+    height: 100%;
+  }
+}
+
+body {
+  background: url("../image/lauzanne_img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a, a:active, a:visited {
+  text-decoration: none;
+  color: $white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: $white;
+}
+
+/*FIN CSS de base*/
+
 /*CSS Barre de navigatio*/
-.container{
+.container {
   background-color: $grey;
   width: 100%;
   display: flex;
   justify-content: center;
-  nav{
+
+  nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,85 +51,80 @@ $white : #FFFFFF;
   }
 }
 
-nav{
+nav {
   color: $white;
-  img{
+
+  img {
     margin-left: 10px;
     height: 45px;
     width: auto;
   }
-  h1{
+
+  h1 {
     text-align: center;
     font-size: 1em;
   }
-  .icon{
+
+  .icon {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  .meteo{
+
+  .meteo {
     display: none;
   }
-  .icon a{
+
+  .icon a {
     margin: 10px;
   }
-  p{
+
+  .icon a:hover {
+    height: 125%;
+    background-color: $white;
+    color: $grey;
+    margin: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+
+  p {
     font-size: 1.5em;
     margin-bottom: 0;
   }
 }
+
 /*FIN CSS barre de navigation*/
 
 
 /*CSS Du corps de la page*/
-html, body{
-  height: 95%;
-  .container_body{
-    height: 100%;
-  }
-}
-
-body{
-  background: url("../image/lauzanne_img.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-
-a, a:active, a:visited{
-  text-decoration: none;
-  color: $white;
-}
-a:hover{
-  text-decoration: underline;
-  color: $white;
-}
 
 /*CSS des reseau sociaux*/
-p{
+p {
   font-family: Flaticon;
 }
-.reseaux_sociaux{
+
+.reseaux_sociaux {
   display: none;
 }
+
 /*FIN CSS des reseau sociaux*/
 
 
 /*CSS des liens du bas*/
-.container_body{
+.container_body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  .link_bottom{
+
+  .link_bottom {
     display: flex;
     justify-content: center;
   }
 }
 
-ul{
+ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,28 +132,31 @@ ul{
   text-align: center;
   list-style: none;
   padding: 0;
-  li{
+
+  li {
     background-color: $grey;
     opacity: 80%;
     margin: 5px;
   }
 }
 
-li a{
+li a {
   width: 100%;
   font-size: 1.7em;
   display: inline-block;
 }
+
 /*FIN CSS des liens du bas*/
 
 /*CSS de la signature*/
-footer{
+footer {
   color: $white;
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: -1;
 }
+
 /*FIN CSS de la signature*/
 
 /*FIN CSS du corps de la page*/
@@ -139,16 +168,19 @@ footer{
       display: contents;
       margin-right: 10px;
       margin-left: 10px;
-      a{
+
+      a {
         display: flex;
         justify-content: center;
         flex-direction: column;
       }
-      p:first-child{
+
+      p:first-child {
         margin-right: 5px;
       }
     }
-    h1{
+
+    h1 {
       font-size: 1.5em;
     }
   }
@@ -157,13 +189,15 @@ footer{
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   nav {
-    .meteo a{
-        display: flex;
-        flex-direction: row;
+    .meteo a {
+      display: flex;
+      flex-direction: row;
     }
+
     h1 {
       font-size: 2em;
     }
+
     img {
       height: 60px;
       width: auto;
@@ -173,49 +207,55 @@ footer{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .container_body{
+  .container_body {
     justify-content: space-between;
   }
-  .reseaux_sociaux{
+  .reseaux_sociaux {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    p{
+
+    p {
       text-align: center;
       font-size: 1.9em;
     }
-    p:nth-child(2n){
+
+    p:nth-child(2n) {
       display: none;
     }
-    a{
+
+    a {
       display: flex;
       justify-content: center;
       flex-direction: row;
       width: 50px;
-      height:50px;
+      height: 50px;
       background-color: #2682C2;
     }
-    a:hover{
+
+    a:hover {
       background-color: #10435F;
       text-decoration: none;
       width: 200px;
-      p:last-child{
+
+      p:last-child {
         margin-left: 25px;
         display: block;
       }
     }
   }
-  ul{
+  ul {
     width: 80%;
     flex-direction: row;
     justify-content: center;
     margin: 0;
-    li{
+
+    li {
       width: 33%;
     }
-    li:last-child{
+
+    li:last-child {
       margin-right: 0;
     }
   }
-
 }
