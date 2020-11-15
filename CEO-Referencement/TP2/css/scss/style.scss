@@ -66,4 +66,34 @@ footer{
   position: fixed;
   bottom: 0;
   right: 0;
+  z-index: -1;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  nav{
+    background-color: red;
+  }
+  .meteo {
+    display: block;
+  }
+
+  .reseaux_sociaux{
+    display: block;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}*/
