@@ -19,6 +19,19 @@ $white : #FFFFFF;
     width: 100%;
   }
 }
+a{
+ text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+
 
 nav{
   color: $white;
@@ -47,6 +60,7 @@ nav{
     margin-left: 10px;
   }
   p{
+    font-size: 1.5em;
     margin-bottom: 0;
   }
 }
@@ -138,7 +152,17 @@ footer{
   nav {
     background-color: red;
     .meteo {
-      display: block;
+      display: contents;
+      margin-right: 10px;
+      margin-left: 10px;
+      a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      p:first-child{
+        margin-right: 5px;
+      }
     }
   }
 }
@@ -147,6 +171,12 @@ footer{
 @media (min-width: 768px) {
   nav {
     background-color: blue;
+    .meteo{
+      a{
+        display: flex;
+        flex-direction: row;
+      }
+    }
   }
 }
 
