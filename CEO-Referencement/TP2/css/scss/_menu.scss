@@ -12,18 +12,19 @@ $white : #FFFFFF;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
 }
 
 nav{
   color: $white;
   img{
-    height: 50px;
+    height: 45px;
     width: auto;
   }
   h1{
     text-align: center;
+    font-size: 1em;
   }
 
   .icon{
@@ -35,9 +36,11 @@ nav{
   .meteo{
     display: none;
   }
-  .icon a{
-    margin-right: 20px;
-    margin-left: 20px;
+  .icon a:first-child{
+    margin-right: 10px;
+  }
+  .icon a:last-child{
+    margin-left: 10px;
   }
   p{
     margin-bottom: 0;
