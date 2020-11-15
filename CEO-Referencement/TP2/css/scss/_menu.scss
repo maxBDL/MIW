@@ -1,0 +1,45 @@
+$grey : #3E4249;
+$white : #FFFFFF;
+
+
+.container{
+  background-color: $grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+nav{
+  color: $white;
+  img{
+    height: 50px;
+    width: auto;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .meteo{
+    display: none;
+  }
+  .icon a{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+}

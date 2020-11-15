@@ -1,0 +1,69 @@
+@import "reset", "menu", "flaticon", "body";
+
+html, body, {
+  height: 100%;
+  .container_body{
+    height: 90%;
+  }
+}
+
+
+body{
+  background: url("../image/lauzanne_img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+p{
+  font-family: Flaticon;
+}
+
+.reseaux_sociaux{
+  display: none;
+}
+
+.container_body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .link_bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+ul{
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  li{
+    background-color: $grey;
+    opacity: 70%;
+    margin: 1%;
+  }
+}
+
+a{
+  font-size: 1.7em;
+  display: inline-block;
+  color: $white;
+}
+a:active{
+  color: $white;
+}
+a:visited {
+  color: $white;
+}
+
+footer{
+  color: $white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
