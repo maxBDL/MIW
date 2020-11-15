@@ -1,12 +1,65 @@
-@import "reset", "menu", "flaticon";
+@import "reset", "flaticon";
 
-html, body, {
-  height: 100%;
-  .container_body{
-    height: 90%;
+/*Definition des couleurs*/
+$grey : #3E4249;
+$white : #FFFFFF;
+/*FIN Definition des couleurs*/
+
+/*CSS Barre de navigatio*/
+.container{
+  background-color: $grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 }
 
+nav{
+  color: $white;
+  img{
+    height: 45px;
+    width: auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .meteo{
+    display: none;
+  }
+  .icon a:first-child{
+    margin-right: 10px;
+  }
+  .icon a:last-child{
+    margin-left: 10px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+}
+/*FIN CSS barre de navigation*/
+
+
+/*CSS Du corps de la page*/
+html, body{
+  height: 95%;
+  .container_body{
+    height: 100%;
+  }
+}
 
 body{
   background: url("../image/lauzanne_img.jpg") no-repeat center center fixed;
@@ -17,39 +70,45 @@ body{
   background-repeat:no-repeat;
 }
 
+/*CSS des reseau sociaux*/
 p{
   font-family: Flaticon;
 }
-
 .reseaux_sociaux{
   display: none;
 }
+/*FIN CSS des reseau sociaux*/
 
+
+/*CSS des liens du bas*/
 .container_body{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
   .link_bottom{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 80%;
   }
 }
 
 ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
   text-align: center;
   list-style: none;
   padding: 0;
   li{
     background-color: $grey;
     opacity: 70%;
-    margin: 1%;
+    margin: 10px;
   }
 }
 
-a{
+li a{
+  width: 100%;
   font-size: 1.7em;
   display: inline-block;
   color: $white;
@@ -60,7 +119,9 @@ a:active{
 a:visited {
   color: $white;
 }
+/*FIN CSS des liens du bas*/
 
+/*CSS de la signature*/
 footer{
   color: $white;
   position: fixed;
@@ -68,6 +129,9 @@ footer{
   right: 0;
   z-index: -1;
 }
+/*FIN CSS de la signature*/
+
+/*FIN CSS du corps de la page*/
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -78,22 +142,65 @@ footer{
     display: block;
   }
 
-  .reseaux_sociaux{
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  nav {
+    background-color: blue;
+  }
+  .meteo {
     display: block;
   }
 }
 
-/*// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-}
-
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+  nav{
+    background-color: purple;
+  }
+  .reseaux_sociaux{
+    float: left;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-top: 250px;
+    p{
+      text-align: center;
+    }
+    p:nth-child(2n){
+      display: none;
+    }
+    a{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 50px;
+      height: 50px;
+      background-color: #2682C2;
+    }
+    a:hover{
+      background-color: #10435F;
+      width: 175px;
+      p:last-child{
+        margin-left: 25px;
+        display: block;
+        font-size: 1em;
+      }
+    }
+  }
+  ul{
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+  }
+  li{
+    width: 33%;
+  }
+  li:last-child{
+    margin-right: 0;
+  }
 }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}*/
