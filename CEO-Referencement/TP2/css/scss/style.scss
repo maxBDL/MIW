@@ -19,27 +19,11 @@ $white : #FFFFFF;
     width: 100%;
   }
 }
-a{
- text-decoration: none;
-  color: $white;
-}
-a:hover{
-  text-decoration: underline;
-  color: $white;
-}
-a:active{
-  text-decoration: none;
-  color: $white;
-}
-a:visited{
-  text-decoration: none;
-  color: $white;
-}
-
 
 nav{
   color: $white;
   img{
+    margin-left: 10px;
     height: 45px;
     width: auto;
   }
@@ -47,21 +31,16 @@ nav{
     text-align: center;
     font-size: 1em;
   }
-
   .icon{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
   }
   .meteo{
     display: none;
   }
-  .icon a:first-child{
-    margin-right: 10px;
-  }
-  .icon a:last-child{
-    margin-left: 10px;
+  .icon a{
+    margin: 10px;
   }
   p{
     font-size: 1.5em;
@@ -86,6 +65,15 @@ body{
   -o-background-size: cover;
   background-size: cover;
   background-repeat:no-repeat;
+}
+
+a, a:active, a:visited{
+  text-decoration: none;
+  color: $white;
+}
+a:hover{
+  text-decoration: underline;
+  color: $white;
 }
 
 /*CSS des reseau sociaux*/
@@ -120,8 +108,8 @@ ul{
   padding: 0;
   li{
     background-color: $grey;
-    opacity: 70%;
-    margin: 10px;
+    opacity: 80%;
+    margin: 5px;
   }
 }
 
@@ -129,13 +117,6 @@ li a{
   width: 100%;
   font-size: 1.7em;
   display: inline-block;
-  color: $white;
-}
-a:active{
-  color: $white;
-}
-a:visited {
-  color: $white;
 }
 /*FIN CSS des liens du bas*/
 
@@ -154,7 +135,6 @@ footer{
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   nav {
-    background-color: red;
     .meteo {
       display: contents;
       margin-right: 10px;
@@ -168,26 +148,19 @@ footer{
         margin-right: 5px;
       }
     }
+    h1{
+      font-size: 1.5em;
+    }
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   nav {
-    background-color: blue;
-    .meteo{
-      a{
+    .meteo a{
         display: flex;
         flex-direction: row;
-      }
     }
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  nav {
-    background-color: purple;
     h1 {
       font-size: 2em;
     }
@@ -196,18 +169,17 @@ footer{
       width: auto;
     }
   }
+}
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
   .container_body{
     justify-content: space-between;
   }
-
   .reseaux_sociaux{
-    float: left;
-    width: 5%;
     display: flex;
     flex-direction: column;
-    display: block;
-    margin-top: 250px;
+    margin-top: 10%;
     p{
       text-align: center;
       font-size: 1.9em;
@@ -216,7 +188,6 @@ footer{
       display: none;
     }
     a{
-      color: #FFFFFF;
       display: flex;
       justify-content: center;
       flex-direction: row;
@@ -226,8 +197,8 @@ footer{
     }
     a:hover{
       background-color: #10435F;
-      color: #FFFFFF;
-      width: 175px;
+      text-decoration: none;
+      width: 200px;
       p:last-child{
         margin-left: 25px;
         display: block;
@@ -239,12 +210,12 @@ footer{
     flex-direction: row;
     justify-content: center;
     margin: 0;
+    li{
+      width: 33%;
+    }
+    li:last-child{
+      margin-right: 0;
+    }
   }
-  li{
-    width: 33%;
-  }
-  li:last-child{
-    margin-right: 0;
-  }
-}
 
+}

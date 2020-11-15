@@ -500,71 +500,42 @@ img {
   width: 100%;
 }
 
-/* line 22, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-/* line 26, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-a:hover {
-  text-decoration: underline;
-  color: #FFFFFF;
-}
-
-/* line 30, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-a:active {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-/* line 34, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-a:visited {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-/* line 40, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 23, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 nav {
   color: #FFFFFF;
 }
 
-/* line 42, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 25, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 nav img {
+  margin-left: 10px;
   height: 45px;
   width: auto;
 }
 
-/* line 46, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 30, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 nav h1 {
   text-align: center;
   font-size: 1em;
 }
 
-/* line 51, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 34, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 nav .icon {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 
-/* line 57, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 39, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 nav .meteo {
   display: none;
 }
 
-/* line 60, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-nav .icon a:first-child {
-  margin-right: 10px;
+/* line 42, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+nav .icon a {
+  margin: 10px;
 }
 
-/* line 63, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-nav .icon a:last-child {
-  margin-left: 10px;
-}
-
-/* line 66, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 45, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 nav p {
   font-size: 1.5em;
   margin-bottom: 0;
@@ -572,17 +543,17 @@ nav p {
 
 /*FIN CSS barre de navigation*/
 /*CSS Du corps de la page*/
-/* line 75, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 54, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 html, body {
   height: 95%;
 }
 
-/* line 77, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 56, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 html .container_body, body .container_body {
   height: 100%;
 }
 
-/* line 82, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 61, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 body {
   background: url("../image/lauzanne_img.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -592,20 +563,32 @@ body {
   background-repeat: no-repeat;
 }
 
+/* line 70, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+a, a:active, a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 74, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
 /*CSS des reseau sociaux*/
-/* line 92, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 80, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 p {
   font-family: Flaticon;
 }
 
-/* line 95, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 83, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 .reseaux_sociaux {
   display: none;
 }
 
 /*FIN CSS des reseau sociaux*/
 /*CSS des liens du bas*/
-/* line 102, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 90, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 .container_body {
   width: 100%;
   display: flex;
@@ -613,13 +596,13 @@ p {
   flex-direction: column;
 }
 
-/* line 107, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 95, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 .container_body .link_bottom {
   display: flex;
   justify-content: center;
 }
 
-/* line 113, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 101, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 ul {
   display: flex;
   flex-direction: column;
@@ -630,34 +613,23 @@ ul {
   padding: 0;
 }
 
-/* line 121, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 109, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 ul li {
   background-color: #3E4249;
-  opacity: 70%;
-  margin: 10px;
+  opacity: 80%;
+  margin: 5px;
 }
 
-/* line 128, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 116, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 li a {
   width: 100%;
   font-size: 1.7em;
   display: inline-block;
-  color: #FFFFFF;
-}
-
-/* line 134, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-a:active {
-  color: #FFFFFF;
-}
-
-/* line 137, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-a:visited {
-  color: #FFFFFF;
 }
 
 /*FIN CSS des liens du bas*/
 /*CSS de la signature*/
-/* line 143, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+/* line 124, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
 footer {
   color: #FFFFFF;
   position: fixed;
@@ -669,79 +641,67 @@ footer {
 /*FIN CSS de la signature*/
 /*FIN CSS du corps de la page*/
 @media (min-width: 576px) {
-  /* line 156, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-  nav {
-    background-color: red;
-  }
-  /* line 158, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 138, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   nav .meteo {
     display: contents;
     margin-right: 10px;
     margin-left: 10px;
   }
-  /* line 162, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 142, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   nav .meteo a {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  /* line 167, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 147, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   nav .meteo p:first-child {
     margin-right: 5px;
+  }
+  /* line 151, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  nav h1 {
+    font-size: 1.5em;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 176, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-  nav {
-    background-color: blue;
-  }
-  /* line 179, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 160, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   nav .meteo a {
     display: flex;
     flex-direction: row;
   }
-}
-
-@media (min-width: 992px) {
-  /* line 189, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-  nav {
-    background-color: purple;
-  }
-  /* line 191, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 164, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   nav h1 {
     font-size: 2em;
   }
-  /* line 194, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 167, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   nav img {
     height: 60px;
     width: auto;
   }
-  /* line 200, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+}
+
+@media (min-width: 992px) {
+  /* line 176, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .container_body {
     justify-content: space-between;
   }
-  /* line 204, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 179, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .reseaux_sociaux {
-    float: left;
-    width: 5%;
     display: flex;
     flex-direction: column;
-    display: block;
-    margin-top: 250px;
+    margin-top: 10%;
   }
-  /* line 211, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 183, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .reseaux_sociaux p {
     text-align: center;
     font-size: 1.9em;
   }
-  /* line 215, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 187, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .reseaux_sociaux p:nth-child(2n) {
     display: none;
   }
-  /* line 218, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 190, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .reseaux_sociaux a {
-    color: #FFFFFF;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -749,30 +709,30 @@ footer {
     height: 50px;
     background-color: #2682C2;
   }
-  /* line 227, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 198, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .reseaux_sociaux a:hover {
     background-color: #10435F;
-    color: #FFFFFF;
-    width: 175px;
+    text-decoration: none;
+    width: 200px;
   }
-  /* line 231, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 202, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   .reseaux_sociaux a:hover p:last-child {
     margin-left: 25px;
     display: block;
   }
-  /* line 237, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  /* line 208, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
   ul {
     width: 80%;
     flex-direction: row;
     justify-content: center;
     margin: 0;
   }
-  /* line 243, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-  li {
+  /* line 213, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  ul li {
     width: 33%;
   }
-  /* line 246, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
-  li:last-child {
+  /* line 216, D:/wamp64/www/MIW/CEO-Referencement/TP2/css/scss/style.scss */
+  ul li:last-child {
     margin-right: 0;
   }
 }
