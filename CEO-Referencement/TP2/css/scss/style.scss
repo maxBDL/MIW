@@ -135,14 +135,12 @@ footer{
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  nav{
+  nav {
     background-color: red;
+    .meteo {
+      display: block;
+    }
   }
-  .meteo {
-    display: block;
-  }
-
-
 }
 
 // Medium devices (tablets, 768px and up)
@@ -150,16 +148,25 @@ footer{
   nav {
     background-color: blue;
   }
-  .meteo {
-    display: block;
-  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  nav{
+  nav {
     background-color: purple;
+    h1 {
+      font-size: 2em;
+    }
+    img {
+      height: 60px;
+      width: auto;
+    }
   }
+
+  .container_body{
+    justify-content: space-between;
+  }
+
   .reseaux_sociaux{
     float: left;
     width: 5%;
@@ -169,6 +176,7 @@ footer{
     margin-top: 250px;
     p{
       text-align: center;
+      font-size: 1.9em;
     }
     p:nth-child(2n){
       display: none;
@@ -179,7 +187,7 @@ footer{
       justify-content: center;
       flex-direction: row;
       width: 50px;
-      height: 50px;
+      height:50px;
       background-color: #2682C2;
     }
     a:hover{
@@ -189,7 +197,6 @@ footer{
       p:last-child{
         margin-left: 25px;
         display: block;
-        font-size: 1em;
       }
     }
   }
@@ -206,3 +213,4 @@ footer{
     margin-right: 0;
   }
 }
+
