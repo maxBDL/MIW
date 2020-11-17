@@ -45,26 +45,26 @@ body{
     justify-content: center;
     flex-direction: column;
     color: hsl(240, 6%, 50%);
+    border-bottom: solid 1px #000000;
 }
 
 p{
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .content>p:first-child{
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    color: hsl(237, 12%, 33%);
+    color: hsl(237, 12%, 21%);
 }
 
 .question{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: solid 1px #000000;
 }
 
 .answer{
@@ -72,5 +72,25 @@ p{
 }
 
 .answer p{
-    color: hsl(240, 5%, 91%);
+    font-size: 12px;
+    color: hsl(240, 12%, 50%);
 }
+
+.dividersToggle{
+    height: 100px;
+}
+
+.dividersToggle .question p{
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(240, 6%, 50%);
+}
+
+.dividersToggle .question svg{
+    transform: rotate(180deg);
+}
+
+.dividersToggle .answer{
+    display: inline-block;
+}
+
