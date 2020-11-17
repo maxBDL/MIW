@@ -2,6 +2,10 @@ body{
     background-color: hsl(212, 23%, 69%);
 }
 
+.image_article img{
+    border-radius: 25px 25px 0 0;
+}
+
 .article_container{
     margin: 0 auto;
     margin-top: 25px;
@@ -20,6 +24,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
+}
+
+.text_article{
+    margin-bottom: 20px;
 }
 
 .text_article p:first-child{
@@ -39,6 +48,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .author_article{
