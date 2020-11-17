@@ -94,3 +94,39 @@ p{
     display: inline-block;
 }
 
+@media screen and (min-width: 768px) {
+    .container_faq{
+        flex-direction: row;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .images_faq{
+        width: 45%;
+    }
+
+    .images_faq img:last-child{
+        display: none;
+    }
+
+    .images_faq img:first-child{
+        display: block;
+        position: absolute;
+        width: 35%;
+        top: 380px;
+        left: -50px;
+        z-index: 1;
+    }
+
+    .images_faq img:nth-child(2){
+        display: block;
+        position: relative;
+        top: 150px;
+    }
+
+    .content{
+        width: 45%;
+    }
+
+}
