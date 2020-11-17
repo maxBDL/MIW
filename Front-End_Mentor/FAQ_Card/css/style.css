@@ -46,6 +46,7 @@ body{
     flex-direction: column;
     color: hsl(240, 6%, 50%);
     border-bottom: solid 1px #000000;
+    margin: 10px;
 }
 
 p{
@@ -87,7 +88,7 @@ p{
 }
 
 .dividersToggle .question svg{
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }
 
 .dividersToggle .answer{
@@ -99,7 +100,6 @@ p{
         flex-direction: row;
         width: 80%;
         height: 500px;
-        margin: 0 auto;
     }
 
     .images_faq{
@@ -112,17 +112,12 @@ p{
 
     .images_faq img:first-child{
         display: block;
-        position: absolute;
         width: 35%;
-        top: 380px;
-        left: -50px;
         z-index: 1;
     }
 
     .images_faq img:nth-child(2){
         display: block;
-        position: relative;
-        top: 150px;
     }
 
     .content{
