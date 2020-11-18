@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End_Mentor/Article_Preview_Component/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End_Mentor/Article_Preview_Component/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/send_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/send_email.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +63,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Article_Preview_Component" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\FAQ_Card\CSS" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Profil_Card_Component\css" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page\css" />
-      <recent name="D:\wamp64\www\MIW\JS\AJAX\TP1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page\images" />
       <recent name="D:\wamp64\www\MIW\JS\AJAX\TP2" />
       <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page" />
       <recent name="D:\wamp64\www\MIW\PHP\MVC\V1" />
       <recent name="D:\wamp64\www\MIW\PHP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Article_Preview_Component" />
+      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\FAQ_Card\CSS" />
+      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Profil_Card_Component\css" />
+      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page\css" />
+      <recent name="D:\wamp64\www\MIW\JS\AJAX\TP1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -120,7 +121,8 @@
       <workItem from="1605517519815" duration="14013000" />
       <workItem from="1605541235913" duration="2769000" />
       <workItem from="1605555569979" duration="2352000" />
-      <workItem from="1605622411731" duration="29529000" />
+      <workItem from="1605622411731" duration="29583000" />
+      <workItem from="1605686461678" duration="11724000" />
     </task>
     <servers />
   </component>
