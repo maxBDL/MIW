@@ -1,0 +1,27 @@
+/*Déclaration des couleurs*/
+$white : #ffffff;
+$dark_grey : #33464d;
+$light_grey : #707070;
+$blue : #259cb8;
+/*FIN Déclaration des couleurs*/
+
+/*Déclaration des polices*/
+@font-face {
+  font-family: "Bold";
+  src: url("../font/Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Italic";
+  src: url("../font/Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("../font/Regular.ttf") format("ttf");
+}
+/*FIN Déclaration des polices*/
+
+/*Déclaration des mixins*/
+
+/*FIN Déclaration des mixins*/
