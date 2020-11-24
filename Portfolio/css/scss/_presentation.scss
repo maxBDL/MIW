@@ -1,18 +1,29 @@
+.body_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .presentation_container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 75px;
   .presentation{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-bottom: 50px;
   }
   .competences{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 80%;
   }
 }
 
@@ -35,5 +46,16 @@
     width : 150px;
     height: auto;
     border-radius: 200px;
+  }
+}
+
+.presentation_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  p{
+    text-align: center;
   }
 }
