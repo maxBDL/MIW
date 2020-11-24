@@ -150,6 +150,7 @@ nav svg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .presentation_container {
@@ -158,14 +159,15 @@ nav svg {
   align-items: center;
   justify-content: center;
   margin-bottom: 75px;
+  width: 100%;
 }
 
 .presentation_container .presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .presentation_container .competences {
@@ -225,6 +227,7 @@ nav svg {
   width: 80%;
   border-radius: 25px;
   background-color: #ffffff;
+  padding-bottom: 25px;
   margin-bottom: 75px;
 }
 
@@ -233,9 +236,9 @@ nav svg {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin: 25px;
+  margin: 12px;
   padding: 15px;
-  width: 80%;
+  width: 90%;
   background-color: #33464d;
   border-radius: 25px;
 }
@@ -248,16 +251,31 @@ nav svg {
   background-color: #ffffff;
   border-radius: 25px;
   width: 80%;
+  height: 525px;
 }
 
 .form form {
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-input {
+form input {
+  padding-left: 10px;
   border-radius: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   width: 100%;
+  height: 50px;
+}
+
+form button {
+  width: 60%;
+  border-radius: 30px;
+  background-color: #259cb8;
+  border: none;
+  height: 50px;
+  margin-top: 10px;
 }
