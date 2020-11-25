@@ -211,12 +211,17 @@ nav svg {
 
 .presentation_text p {
   text-align: center;
+  color: #ffffff;
 }
 
 .competences {
   background-color: #33464d;
   border-radius: 25px;
   padding: 10px;
+}
+
+.competences h2 {
+  color: #ffffff;
 }
 
 .formation {
