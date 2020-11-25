@@ -20,9 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS/Controle/DS2/biblio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Controle/DS2/version1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Controle/DS2/version2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Controle/DS2/version3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/send_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/send_email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/email/email_party.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/miw_day3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/Ex6/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/Ex6/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/Ex6/config2.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/Ex6/config2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/Exercice6/cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/Exercice6/cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/Exercice6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/Exercice6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/Exercice6/prod.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/Exercice6/prod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/Exercice6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/Exercice6/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Controle/exo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Controle/DS1/exo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Controle/exo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Controle/DS1/exo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Controle/exo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Controle/DS1/exo3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/MVC/V1/core/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/V1/core/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/MVC/V1/models/Streamer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/V1/models/Streamer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/MVC/V2/controllers/Don.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/V2/controllers/Don.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/MVC/V2/models/Don.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/V2/models/Don.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/MVC/V2/views/streamer/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/V2/views/streamer/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP1/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP1/component.html" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP1/component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP1/couleur.html" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP1/couleur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP1/vroum.html" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP1/vroum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +69,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,26 +88,36 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Front-End_Mentor/Article_Preview_Component" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/miw V 02 11 2020" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page\images" />
-      <recent name="D:\wamp64\www\MIW\JS\AJAX\TP2" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\V1" />
-      <recent name="D:\wamp64\www\MIW\PHP" />
+      <recent name="D:\wamp64\www\MIW\JS\Controle\DS1" />
+      <recent name="D:\wamp64\www\MIW\JS\TP7" />
+      <recent name="D:\wamp64\www\MIW\Portfolio\icons" />
+      <recent name="D:\wamp64\www\MIW\JS\AJAX\Ex6" />
+      <recent name="D:\wamp64\www\MIW\JS\AJAX" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Article_Preview_Component" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\FAQ_Card\CSS" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Profil_Card_Component\css" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Landing-Page\css" />
-      <recent name="D:\wamp64\www\MIW\JS\AJAX\TP1" />
+      <recent name="D:\wamp64\www\MIW\VueJS\TP2\2020_exo_js_1" />
+      <recent name="D:\wamp64\www\MIW\Portfolio\images" />
+      <recent name="D:\wamp64\www\MIW\Portfolio\icons" />
+      <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP3" />
+      <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP3\miw_day3" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="config.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MIW/JS/AJAX/Ex6/config.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.config.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,7 +163,16 @@
       <workItem from="1605541235913" duration="2769000" />
       <workItem from="1605555569979" duration="2352000" />
       <workItem from="1605622411731" duration="29583000" />
-      <workItem from="1605686461678" duration="11724000" />
+      <workItem from="1605686461678" duration="42742000" />
+      <workItem from="1605778990986" duration="1110000" />
+      <workItem from="1605780487188" duration="34838000" />
+      <workItem from="1605859892927" duration="20838000" />
+      <workItem from="1605910921149" duration="1013000" />
+      <workItem from="1605964282972" duration="24641000" />
+      <workItem from="1606046518505" duration="17547000" />
+      <workItem from="1606121826062" duration="27410000" />
+      <workItem from="1606224978426" duration="18450000" />
+      <workItem from="1606291345393" duration="20019000" />
     </task>
     <servers />
   </component>
@@ -146,14 +196,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605454941620" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605524665504">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2731" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605794542020">
+      <screen x="1920" y="2" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605524665504" />
+    <state x="2731" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605794542020" />
     <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605622486695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605622486695" />
+    <state x="492" y="341" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606146190657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="341" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606146190657" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604500507466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,25 +217,32 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="469" y="208" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1603455960404" />
-    <state x="696" y="207" key="FileChooserDialogImpl" timestamp="1605482457694">
+    <state x="696" y="207" key="FileChooserDialogImpl" timestamp="1606309804910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1604258496590" />
-    <state x="696" y="207" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605482457694" />
-    <state x="2714" y="445" key="NewPhpFileDialog" timestamp="1605537487277">
-      <screen x="1920" y="2" width="1920" height="1040" />
+    <state x="696" y="207" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606309804910" />
+    <state x="766" y="243" key="NewPhpClassDialog" timestamp="1606154569845">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="766" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606154569845" />
+    <state x="2686" y="245" key="NewPhpClassDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1606137908751" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606154573920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606154573920" />
     <state x="2714" y="445" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605537487277" />
     <state x="2873" y="2" width="974" height="1047" maximized="true" key="dock-window-1" timestamp="1604926839739">
       <screen x="1920" y="2" width="1920" height="1040" />
     </state>
     <state x="1810" y="0" width="589" height="847" maximized="true" key="dock-window-1/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1603708104225" />
     <state x="2873" y="2" width="974" height="1047" maximized="true" key="dock-window-1/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1604926839739" />
-    <state x="547" y="236" key="run.anything.popup" timestamp="1605523402892">
+    <state x="547" y="236" key="run.anything.popup" timestamp="1606055654089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1604308497429" />
-    <state x="547" y="236" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605523402892" />
+    <state x="547" y="236" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606055654089" />
+    <state x="2467" y="238" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605797429802" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604497945439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

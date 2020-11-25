@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html class="accueil" lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>rendu_contitionnel.html</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Rendu conditionnel</h1>
+		<div id="app">
+			<div class="bloc">
+				<h2>v-show</h2>
+				<p class="explication">affiche ou masque un élément de manière conditionnelle <strong>en CSS avec un display</strong></p>
+				<p v-show="afficher">Coucou (affirmation)</p>
+				<p v-show="!afficher">Coucou (negation)</p>
+			</div>
+
+			<div class="bloc">
+				<h2>v-if</h2>
+				<p class="explication">affiche ou masque un élément de manière conditionnelle <strong>en supprimant / recréant l'élément</strong></p>
+				<p v-if="afficher">Coucou (affirmation)</p>
+				<p v-if="!afficher">Coucou (negation)</p>
+			</div>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+
+			var app = new Vue({
+				el: '#app',
+				data: {
+					afficher: false
+				}
+			});
+		</script>
+	</body>
+</html>

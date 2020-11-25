@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html class="accueil" lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>liaisons.html</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Les liaisons des champs de formulaire</h1>
+		<div id="app">
+			<div class="bloc">
+				<p class="explication">
+					Texte : input
+				</p>
+				<input v-model="message" placeholder="modifiez-moi">
+				<p>Le message est : {{ message }}</p>
+			</div>
+
+			<div class="bloc">
+				<p class="explication">
+					Texte multilignes : textarea
+				</p>
+					<span>Le message multiligne est :</span>
+					<p style="white-space: pre-line;">{{ messageMulti }}</p>
+					<br>
+					<textarea v-model="messageMulti" placeholder="ajoutez plusieurs lignes"></textarea>
+			</div>
+
+			<div class="bloc">
+				<p class="explication">
+					Checkbox
+				</p>
+				<input type="checkbox" id="checkbox" v-model="checked">
+				<label for="checkbox">{{ checked }}</label>
+			</div>
+
+			<div class="bloc">
+				<p class="explication">
+					Checkbox plusieurs valeurs
+				</p>
+				<input type="checkbox" id="jack" value="Jack" v-model="checkedPrenom">
+				<label for="jack">Jack</label>
+
+				<input type="checkbox" id="john" value="John" v-model="checkedPrenom">
+				<label for="john">John</label>
+
+				<input type="checkbox" id="toto" value="Toto" v-model="checkedPrenom">
+				<label for="toto">Mike</label>
+				<br>
+				<span>Noms cochés : {{ checkedPrenom }}</span>
+			</div>
+
+			<div class="bloc">
+				<p class="explication">
+					Radio
+				</p>
+				<input type="radio" id="one" value="Un" v-model="picked">
+				<label for="one">Un</label>
+
+				<br>
+				<input type="radio" id="two" value="Deux" v-model="picked">
+				<label for="two">Deux</label>
+				<br>
+				<span>Choisi : {{ picked }}</span>
+			</div>
+
+			<div class="bloc">
+				<p class="explication">
+					Select choix unique
+				</p>
+				<select v-model="selected">
+					<option disabled value="">Choisissez</option>
+					<option>A</option>
+					<option>B</option>
+					<option>C</option>
+				</select>
+				<span>Sélectionné : {{ selected }}</span>
+			</div>
+
+			<!--<div class="bloc">
+				<p class="explication">
+					Select choix multiple
+				</p>
+				<select v-model="selectedMulti" multiple>
+					<option disabled value="">Choisissez</option>
+					<option>A</option>
+					<option>B</option>
+					<option>C</option>
+				</select>
+				<span>Sélectionné : {{ selectedMulti }}</span>
+			</div>-->
+
+			<div class="bloc">
+				<p class="explication">
+					exercice : réaliser un select multiple en affichant les options avec une boucle for
+				</p>
+				<pre class="">
+					<div>
+						<select v-model="selectedMulti" multiple >
+							<option  v-for="option in options" :key="i" :value="option.value" >{{option.text}}</option>
+						</select>
+					</div>
+					<span>Séléctionné: {{selectedMulti}}</span>
+					<script>
+					</script>
+				</pre>
+			</div>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+			var vm = new Vue({
+				el: '#app',
+				data: {
+					message: '',
+					messageMulti: '',
+					checked: true,
+					checkedPrenom: [],
+					picked:'',
+					//selected: 'B',
+					selected: 'A',
+					options: [
+						{ text: 'Un', value: 'A' },
+						{ text: 'Deux', value: 'B' },
+						{ text: 'Trois', value: 'C' }
+					],
+					selectedMulti: []
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+#app {
+	width: 500px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.max {
+	width: 50px;
+}
+.lesButtons {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+button {
+	font-size: 3rem;
+	padding: 1rem;
+	cursor: pointer;
+}
+.cpt {
+	background-color: #008080;
+	border: 2px solid #5B2D1F;
+}
+.reset {
+	background-color: #FB825E;
+	border: 2px solid #5B2D1F;
+}
+
+.resultat {
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center
+}
+
+.boom {
+	width: 100%;
+	margin-top: 1rem;
+	background-color: #ff0000;
+	border: 2px solid #000;
+	padding: 2rem 1rem;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center
+}

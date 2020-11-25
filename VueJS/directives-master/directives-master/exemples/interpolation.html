@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html class="accueil" lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>interpolation.html</title>
+		<link rel="stylesheet" href="style.css">
+		<style type="text/css" media="screen">
+			[v-cloak] {
+				color: white;
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Interpolation</h1>
+		<div id="app">
+
+			<div class="bloc">
+				<h2>Moustaches</h2>
+				<p> mon texte : {{ message }} </p>
+				<p> mon texte conditionnel: {{ messageVide ? messageVide : 'vide'}} </p>
+			</div>
+
+			<div class="bloc">
+				<h2>v-text</h2>
+				<p>Contenu écrasé</p>
+				<p v-text=message>Contenu écrasé</p>
+				<p v-text="message">Contenu écrasé</p>
+				<p v-text='message'>Contenu écrasé</p>
+				<p v-text="messageHTML">HTML écrasé</p>
+			</div>
+
+			<div class="bloc">
+				<h2>v-html</h2>
+				<p v-html="message">Contenu écrasé</p>
+				<p v-html="messageHTML">Contenu écrasé</p>
+			</div>
+
+			<div class="bloc">
+				<h2>v-pre</h2>
+				<p v-pre>Contenu écrasé</p>
+				<p v-pre>{{ message }}</p>
+			</div>
+
+			<div class="bloc">
+				<h2>v-cloak</h2>
+				<div v-cloak>
+				  {{ message }}
+				</div>
+				<p class="explication">Cette directive restera sur l’élément jusqu’à ce que l’instance de Vue associée ait fini sa compilation. Combiné avec des règles CSS telles que [v-cloak] { display: none }, cette directive peut être utilisée pour cacher des liaisons moustaches encore non compilées jusqu’à ce que l’instance de Vue soit prête.</p>
+				<p class="explication">Il est préférable d'adosser cette directive sur le noeud racine de l'applicaiton</p>
+			</div>
+
+			<div class="bloc">
+				<h2>arguments html</h2>
+				<p class="class_html" :class="classVue">class = "class_html class_vuejs"</p>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+
+			var app = new Vue({
+				el: '#app',
+				data: {
+					message: 'Hello Vue!',
+					messageVide: '',
+					messageHTML: '<strong style="color: red">Hello Vue!</strong>',
+					classVue:"class_vuejs"
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/miw_day3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HTML-CSS/2020_eval" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HTML-CSS/2020_exo_menu" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Portfolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" vcs="Git" />
   </component>
 </project>

@@ -1,7 +1,10 @@
 <?php
 
 
-class Streamer
+class StreamerModel
 {
-
+    //CREATE
+    //    UPDATE
+    //    READ
+    //    DELETE
 }

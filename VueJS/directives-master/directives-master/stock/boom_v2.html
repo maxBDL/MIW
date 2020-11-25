@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html class="accueil" lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>boom_v2.html</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="app">
+			<h1>Ca va faire boom !</h1>
+			<div>
+				<label>Valeur à ne pas dépasser
+					<input class="max" type="number" v-model.number="max">
+				</label>
+			</div>
+
+			<div class="lesButtons">
+				<button class="cpt" @click="monCompteur">Appuyez ici</button>
+				<button class="reset" @click="cpt = 0; max = 10">Reset</button>
+			</div>
+			<div class="resultat">
+				On va compter : {{cpt}}
+			</div>
+			<div class="boom" v-show="cpt === max ">
+				Boom, vous avez atteint le maximum !
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+
+			var vm = new Vue({
+				el: '#app',
+				data: {
+					cpt: 0,
+					max: 10
+				},
+				methods: {
+					monCompteur() {
+						if (this.cpt < this.max ) {
+							this.cpt += 1;
+						}
+					}
+				}
+			});
+		</script>
+	</body>
+</html>

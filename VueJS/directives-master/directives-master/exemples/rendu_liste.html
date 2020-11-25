@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html class="accueil" lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>rendu_liste.html</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Rendu de liste</h1>
+		<div id="app">
+			<div class="bloc">
+				<p class="explication">
+					Pour boucler, on utilise la directive <strong>v-for</strong>
+				</p>
+				<p class="explication">
+					Elle est toujours couplée au mot clé <strong>:key</strong>
+					=> valeur primitive entier ou chaine
+				</p>
+			</div>
+			<div class="bloc">
+				<span v-for="i in 10" :key="i">{{ i }} {{ i < 10 ? '-' : ''}} </span>
+			</div>
+
+			<div class="bloc">
+				<p class="explication">
+					Afficher le mot "snow", en utilisant un variable (array) et où chaque lettre devra etre dans un span avec comme class : "lettre_X" ou X = nom de la lettre
+				</p>
+				<span :class="'lettre' + nom[i]" v-for="(val, index) in nom">{{val}} {{index}}<br></span>
+			</div>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+
+			var app = new Vue({
+				el: '#app',
+				data: {
+					nom: "maxime"
+				}
+			});
+		</script>
+	</body>
+</html>

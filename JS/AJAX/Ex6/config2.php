@@ -8,7 +8,7 @@ function getBdd()
 {
     try {
         $bdd = new PDO(
-            'mysql:host=localhost;dbname=produit;charset=utf8',
+            'mysql:host=localhost;dbname=ajax;charset=utf8',
             'root',
             '',
             array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING)
@@ -23,7 +23,7 @@ $bdd = getBdd();
 
 $codeCat = $_GET['codeCat'];
 
-$reponse = $bdd->prepare('SELECT libPro FROM produits WHERE produits.codeCat = :code');
+$reponse = $bdd->prepare('SELECT libPro FROM produits WHERE produits.codeCat =:code');
 $reponse->bindValue(':code', $codeCat, PDO::PARAM_INT);
 $reponse->execute();
 

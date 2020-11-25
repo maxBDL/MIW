@@ -1,0 +1,16 @@
+h1 {
+	padding: 1rem;
+	border: 1px solid black;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+.bloc {
+	padding: 1rem;
+	border: 1px solid black;
+	margin-bottom: 1rem;
+}
+.explication {
+	background-color: #CECECE;
+	padding: 5px;
+}
+
