@@ -1,0 +1,364 @@
+.realisations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  width: 80%;
+  height: 100%;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+section {
+  background: #F4F4F4;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.carousel {
+  display: block;
+  text-align: left;
+  position: relative;
+  margin-bottom: 22px;
+}
+.carousel > input {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+.carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -500%;
+}
+.carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -400%;
+}
+.carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -300%;
+}
+.carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -200%;
+}
+.carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -100%;
+}
+.carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: 0%;
+}
+.carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+.carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+.carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+.carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+.carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+.carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+
+.carousel__slides {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.carousel__slide {
+  position: relative;
+  display: block;
+  flex: 1 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 300ms ease-out;
+  vertical-align: top;
+  box-sizing: border-box;
+  white-space: normal;
+}
+.carousel__slide figure {
+  display: flex;
+  margin: 0;
+}
+.carousel__slide div {
+  position: relative;
+  width: 100%;
+}
+.carousel__slide div:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 66.6666666667%;
+}
+.carousel__slide div > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.carousel__slide img {
+  display: block;
+  flex: 1 1 auto;
+  object-fit: cover;
+}
+.carousel__slide figcaption {
+  align-self: flex-end;
+  padding: 20px 20px 0 20px;
+  flex: 0 0 auto;
+  width: 25%;
+  min-width: 150px;
+}
+.carousel__slide .credit {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.carousel__slide.scrollable {
+  overflow-y: scroll;
+}
+
+.carousel__thumbnails {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin: 0 -10px;
+}
+.carousel__slides + .carousel__thumbnails {
+  margin-top: 20px;
+}
+.carousel__thumbnails li {
+  flex: 1 1 auto;
+  max-width: calc((100% / 6) - 20px);
+  margin: 0 10px;
+  transition: all 300ms ease-in-out;
+}
+.carousel__thumbnails label {
+  display: block;
+  position: relative;
+}
+.carousel__thumbnails label:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+.carousel__thumbnails label > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
+  cursor: pointer;
+}
+.carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+  transition: all 300ms ease-in-out;
+}
+.carousel__thumbnails img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
