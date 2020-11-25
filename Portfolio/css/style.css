@@ -528,20 +528,20 @@ p {
 }
 
 /* Property Cards Hover States */
-.property-card:active .property-description {
+.property-card:hover .property-description {
   height: 0em;
   padding: 0px 1em;
 }
 
-.property-card:active .property-image {
+.property-card:hover .property-image {
   height: 18em;
 }
 
-.property-card:active .property-social-icons {
+.property-card:hover .property-social-icons {
   background-color: white;
 }
 
-.property-card:active .property-social-icons:active {
+.property-card:hover .property-social-icons:hover {
   background-color: blue;
   cursor: pointer;
 }
@@ -556,7 +556,7 @@ p {
   font-size: 1.2em;
 }
 
-.property-card:active .property-image-title {
+.property-card:hover .property-image-title {
   opacity: 1;
 }
 
