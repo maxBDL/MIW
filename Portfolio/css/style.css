@@ -456,8 +456,8 @@ p {
 }
 
 .center {
-  height: 100vh;
-  width: 100%;
+  height: 450px;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -465,8 +465,8 @@ p {
 
 /* End Non-Essential  */
 .property-card {
-  height: 18em;
-  width: 14em;
+  height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,22 +480,20 @@ p {
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 16px;
   overflow: hidden;
-  -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 
 /* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
 /* Top Half of card, image. */
 .property-image {
-  height: 6em;
-  width: 14em;
+  height: 33%;
+  width: 100%;
   padding: 1em 2em;
   position: Absolute;
   top: 0px;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image: url("https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg");
+  background-image: url("../images/projetSWM.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -503,8 +501,8 @@ p {
 /* Bottom Card Section */
 .property-description {
   background-color: #FAFAFC;
-  height: 12em;
-  width: 14em;
+  height: 66%;
+  width: 100%;
   position: absolute;
   bottom: 0em;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -520,8 +518,8 @@ p {
   height: 1em;
   background-color: black;
   position: absolute;
-  bottom: 1em;
-  left: 1em;
+  bottom: 5%;
+  left: 5%;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -534,7 +532,7 @@ p {
 }
 
 .property-card:hover .property-image {
-  height: 18em;
+  height: 100%;
 }
 
 .property-card:hover .property-social-icons {

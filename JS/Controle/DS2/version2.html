@@ -25,23 +25,46 @@
         {"mois":"Décembre","tp":[12,10,12,10,12,10,12,10,10,8,12,8,12,8,9,13,12,13,14,12,10,8,10,9,10,9,8,9,10,8,12]}
     ];
 
-    var table = '<table border="1">\n' +
-        '        <thead>\n' +
-        '            <tr style="background-color: #6d6f71">\n' +
-        '                <th>Mois</th>\n' +
-        '                <th>Minimum</th>\n' +
-        '                <th>Maximum</th>\n' +
-        '                <th>Moyenne</th>\n' +
-        '            </tr>\n' +
-        '        </thead>\n' +
-        '        <tbody>';
+    let legende = ['Mois', 'Minimum', 'Maximum', 'Moyenne'];
 
-    for (let i = 0; i < temp.length; i++) {
-        let tr = "<tr class='"+i+"'><td>" + temp[i].mois + "</td><td>" + temp[i].tp.min() + "</td><td>" + temp[i].tp.max() + "</td><td>" + temp[i].tp.avg() + "</td></tr> "
-        table += tr;
+
+    var body = document.getElementsByTagName('body')[0];
+    var table = document.createElement('table');
+    var tHead = document.createElement('thead');
+
+    //Initialisation du tHead
+    var trHead = document.createElement('tr');
+    for (let i = 0; i < legende.length; i++) {
+        var th = document.createElement('th');
+        th.append(legende[i]);
+        trHead.appendChild(th);
     }
-    table += '</tbody>\n' +
-        '    </table>';
-    document.write(table);
+    tHead.appendChild(trHead);
 
+    //Initialisation du tBody
+    var tBody = document.createElement('tbody');
+    //var trBody = document.createElement('tr');
+    for (let i = 0; i < temp.length; i++) {
+        var trBody = document.createElement('tr');
+        var tdMois = document.createElement('td');
+        var tdMin = document.createElement('td');
+        var tdMax = document.createElement('td');
+        var tdAvg = document.createElement('td');
+        tdMois.append(temp[i].mois);
+        tdMin.append(temp[i].tp.min());
+        tdMax.append(temp[i].tp.max());
+        tdAvg.append(temp[i].tp.avg());
+
+        trBody.append(tdMois);
+        trBody.append(tdMin);
+        trBody.append(tdMax);
+        trBody.append(tdAvg);
+        tBody.appendChild(trBody);
+    }
+    tBody.appendChild(trBody);
+
+
+    table.appendChild(tHead);
+    table.appendChild(tBody);
+    body.appendChild(table);
 </script>

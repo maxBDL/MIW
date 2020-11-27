@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+</head>
+<style>
+    #app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    tr{
+        border-bottom: solid 1px grey;
+    }
+</style>
+<body>
+<div id="app">
+    <h1>Formulaire d'inscription</h1>
+
+    <form v-on:submit.prevent>
+            <div v-for="(element, i) in elements" :key="i" :style="element.bg ?'background-color: #00ff00' : ''">
+                <input type="text" name="nom" placeholder="Nom" v-model="element.nom">
+                <input type="text" name="prenom" placeholder="Prenom" v-model="element.prenom">
+                <input type="checkbox" name="select" v-on:select="changeBG(i)" v-model="element.bg">
+            </div>
+            <button v-on:click="elements.push({});saveElements(this.elements);">Ajouter</button>
+    </form>
+
+    <p>JSON: {{JSON.stringify(elements)}}</p>
+
+    <table>
+        <thead>
+        <tr>
+            <td>Nom</td>
+            <td>Prenom</td>
+            <td>Sup</td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr v-for="(element, i) in elements" :key="i" :style="element.bg ?'background-color: #00ff00' : ''">
+                <td>{{element.nom}}</td>
+                <td>{{element.prenom}}</td>
+                <td><button v-on:click="del(i)">Supprimer</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            elements : [{"nom":"","prenom":"","bg":false}],
+        },
+        mounted() {
+            if (localStorage.getItem('elementsStorage')){
+                try {
+                    this.elements = JSON.parse(localStorage.getItem('elementsStorage'));
+                }catch (e){
+                    localStorage.removeItem('elementsStorage');
+                }
+            }
+        },
+        methods: {
+            del(nb){
+                this.elements.splice(nb ,1);
+                this.saveElements(this.elements);
+            },
+            changeBG(nb){
+                this.elements[i].bg = "on";
+            },
+            saveElements(){
+                const parsed = JSON.stringify(this.elements);
+                localStorage.setItem('elementsStorage', parsed);
+            }
+        }
+
+    });
+</script>
+</body>
+</html>

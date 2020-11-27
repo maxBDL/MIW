@@ -18,106 +18,80 @@
         }
 
         display() {
-            var table = '<table border="1">\n' +
-                '        <thead>\n' +
-                '            <tr style="background-color: #6d6f71">\n' +
-                '                <th>Mois</th>\n' +
-                '                <th>Minimum</th>\n' +
-                '                <th>Maximum</th>\n' +
-                '                <th>Moyenne</th>\n' +
-                '            </tr>\n' +
-                '        </thead>\n' +
-                '        <tbody>';
+            let legende = ['Mois', 'Minimum', 'Maximum', 'Moyenne'];
 
-            for (let i = 0; i < this.temp.length; i++) {
-                let tr = "<tr class='" + i + "'><td>" + this.temp[i].mois + "</td><td>" + this.temp[i].tp.min() + "</td><td>" + this.temp[i].tp.max() + "</td><td>" + this.temp[i].tp.avg() + "</td></tr> "
-                table += tr;
+            var body = document.getElementsByTagName('body')[0];
+            var table = document.createElement('table');
+            var tHead = document.createElement('thead');
+
+            //Initialisation du tHead
+            var trHead = document.createElement('tr');
+            for (let i = 0; i < legende.length; i++) {
+                var th = document.createElement('th');
+                th.append(legende[i]);
+                trHead.appendChild(th);
             }
-            table += '</tbody>\n' +
-                '    </table>';
-            document.write(table);
+            tHead.appendChild(trHead);
 
-    //         ESSAI SANS LA VARIABLE NB DANS LES FONCTIONS
-    //                 this.lignes = document.getElementsByTagName('tr');
-    //
-    //                 for (let i = 1; i < this.lignes.length; i++) {
-    //                     var that = this;
-    //                     console.log(that);
-    //                     this.lignes[i].onclick = () => {
-    //                         var that = this;
-    //                         that.fold();
-    //                     }
-    //                     this.lignes[i].onmouseover = () => {
-    //                         var that = this;
-    //                         that.color('#00ff00');
-    //                     }
-    //                     this.lignes[i].onmouseleave = () => {
-    //                         var that = this;
-    //                         that.color('#FFFFFF');
-    //                     }
-    //                 }
-    //
-    //                 console.log(this.lignes)
-    //             }
-    //             fold()
-    //             {
-    //                 console.log(this);
-    //                 var ligne = document.getElementsByClassName(nb)[0];
-    //                 for (let i = 0; i < this.temp[nb].tp.length; i++) {
-    //                     ligne.innerHTML += '<td width="20px" style="text-align: center">' + this.temp[nb].tp[i] + '</td>';
-    //                 }
-    //                 ligne.onclick = () => {
-    //                     this.unfold();
-    //                 };
-    //             }
-    //             unfold()
-    //             {
-    //                 var ligne = document.getElementsByClassName(nb)[0];
-    //                 ligne.innerHTML = "<tr class='" + nb + "'><td>" + this.temp[nb].mois + "</td><td>" + this.temp[nb].tp.min() + "</td><td>" + this.temp[nb].tp.max() + "</td><td>" + this.temp[nb].tp.avg() + "</td></tr> "
-    //                 ligne.onclick = () => {
-    //                     this.fold();
-    //                 };
-    //             }
-    //             color(c)
-    //             {
-    //                 var ligne = document.getElementsByClassName(nb)[0];
-    //                 ligne.style.backgroundColor = c;
-    //             }
-    //         }
-            this.lignes = document.getElementsByTagName('tr');
-            for (let i = 1; i < this.lignes.length; i++) {
-                this.lignes[i].onclick=()=>{
-                    this.fold(i-1);
-                }
-                this.lignes[i].onmouseover=()=>{
-                    this.color(i-1,'#00ff00');
-                }
-                this.lignes[i].onmouseleave=()=>{
-                    this.color(i-1,'#FFFFFF');
-                }
+            //Initialisation du tBody
+            var tBody = document.createElement('tbody');
+            //var trBody = document.createElement('tr');
+            for (let i = 0; i < temp.length; i++) {
+                var trBody = document.createElement('tr');
+                var tdMois = document.createElement('td');
+                var tdMin = document.createElement('td');
+                var tdMax = document.createElement('td');
+                var tdAvg = document.createElement('td');
+                tdMois.append(temp[i].mois);
+                tdMin.append(temp[i].tp.min());
+                tdMax.append(temp[i].tp.max());
+                tdAvg.append(temp[i].tp.avg());
 
+                trBody.append(tdMois);
+                trBody.append(tdMin);
+                trBody.append(tdMax);
+                trBody.append(tdAvg);
+                trBody.className = i.toString();
+                tBody.appendChild(trBody);
+
+                trBody.addEventListener('click', this.fold, false);
+                trBody.addEventListener('mouseover', this.color, false);
+                trBody.addEventListener('mouseout', this.uncolor, false);
             }
-
+            table.appendChild(tHead);
+            table.appendChild(tBody);
+            body.appendChild(table);
         }
-        fold(nb){
-            var ligne = document.getElementsByClassName(nb)[0];
-            //console.log(this.lignes);
-            //var nbLigne = this.ligne.className;
-            //console.log(nbLigne);
-            for (let i = 0; i < this.temp[nb].tp.length; i++) {
-                ligne.innerHTML += '<td width="20px" style="text-align: center">'+this.temp[nb].tp[i]+'</td>';
+        fold(){
+            if (this.children.length == 4){
+                for (let i = 0; i < temp[this.className].tp.length; i++) {
+                    var tdTemp = document.createElement('td');
+                    tdTemp.append(temp[this.className].tp[i]);
+                    this.appendChild(tdTemp);
+                }
+            }else{
+                this.textContent= "";
+                var tdMois = document.createElement('td');
+                var tdMin = document.createElement('td');
+                var tdMax = document.createElement('td');
+                var tdAvg = document.createElement('td');
+                tdMois.append(temp[this.className].mois);
+                tdMin.append(temp[this.className].tp.min());
+                tdMax.append(temp[this.className].tp.max());
+                tdAvg.append(temp[this.className].tp.avg());
+                this.append(tdMois);
+                this.append(tdMin);
+                this.append(tdMax);
+                this.append(tdAvg);
             }
-            ligne.onclick=()=>{this.unfold(nb);};
         }
-        unfold(nb){
-            var ligne = document.getElementsByClassName(nb)[0];
-            ligne.innerHTML ="<tr class='"+nb+"'><td>" + this.temp[nb].mois + "</td><td>" + this.temp[nb].tp.min() + "</td><td>" + this.temp[nb].tp.max() + "</td><td>" + this.temp[nb].tp.avg() + "</td></tr> "
-            ligne.onclick=()=>{this.fold(nb);};
+        color(){
+            this.style.backgroundColor = "#00ff00";
         }
-        color(nb, c){
-            var ligne = document.getElementsByClassName(nb)[0];
-            ligne.style.backgroundColor = c;
+        uncolor(){
+            this.style.backgroundColor = "#ffffff";
         }
+
     }
 
 
@@ -139,5 +113,8 @@
 
     var relev = new Releve(temp,body);
     relev.display();
+
+    var relev2 = new Releve(temp,body);
+    relev2.display();
 
 </script>
