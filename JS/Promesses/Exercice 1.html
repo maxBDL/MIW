@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Exercice 1 </title>
+	</head>
+	<body>
+	</body>
+</html>
+<script>
+function asynchrone(resolve,reject,duree){
+	      // simulation d'une  requête A asynchrone avec setTimeout
+	      setTimeout( ()=>{
+	      	let a=Math.random();
+	              if (a > 0.01 ) resolve(a);     
+	                   else     reject(a)
+	      }, duree);
+ };
+
+asynchrone(
+(x)=>{ console.log(`1ère requête asynchrone réussie résultat= ${x}`)
+       asynchrone(
+       (y)=>{ console.log(`2ième requête asynchrone réussie résultat= ${y}`);
+              console.log(`produit ${x} par ${y}  =  ${x*y}`);
+            },
+       (y)=>{console.log(`2 ième requête asynchrone échouée résultat= ${y}`)},
+       3000
+       )    
+     },
+(x)=>{console.log(`1 ère requete asynchrone échouée résultat= ${x}`)},
+5000
+);
+
+</script>  

@@ -55,6 +55,7 @@
         }
 
         selectDep.onchange = () =>{
+            document.getElementsByTagName('input')[0].innerHtml = "";
             displayVilles(selectDep);
         }
     }
@@ -79,23 +80,23 @@
     makeListVilles = (xhr) =>{
         let dataVilles = JSON.parse(xhr.responseText);
 
-        let selectVilles = document.getElementById('selectVille');
-        selectVilles.innerHTML = "";
-        let optionVilles = document.createElement('option');
-        let optionTextVilles = document.createTextNode("Ville ...");
-        optionVilles.append(optionTextVilles);
-        selectVilles.appendChild(optionVilles);
+        let inputVilles = document.getElementById('selectVille');
+        inputVilles.innerHTML = "";
+        let dataListVille = document.createElement('datalist');
+        dataListVille.id = "villes";
+        dataListVille.innerHTML = "";
+
 
         for (let i = 0; i < dataVilles.length; i++) {
             let optionsVilles = document.createElement('option');
-            let optionsTextVilles = document.createTextNode(dataVilles[i].ville_nom_simple.charAt(0).toUpperCase() + dataVilles[i].ville_nom_simple.slice(1));
-            optionsVilles.value = dataVilles[i].ville_nom_simple;
+            let optionsTextVilles = document.createTextNode(dataVilles[i].ville_nom.charAt(0).toUpperCase() + dataVilles[i].ville_nom.slice(1));
+            optionsVilles.value = dataVilles[i].ville_nom;
             optionsVilles.append(optionsTextVilles);
-            selectVilles.appendChild(optionsVilles);
+            dataListVille.appendChild(optionsVilles);
         }
-
-        selectVilles.onchange = () =>{
-            displayMeteo(selectVilles);
+        inputVilles.append(dataListVille);
+        inputVilles.onchange = () =>{
+            displayMeteo(inputVilles);
         }
     }
 
@@ -107,8 +108,16 @@
                 if (this.readyState == this.DONE) {
                     if (this.status == 200) {
                         makeMeteo(this);
-                    } else
-                        throw new Error(" impossible chager les catégories")
+                    } else {
+                        throw new Error(" impossible chager les catégories");
+                        /*let body = document.getElementsByTagName('body')[0];
+                        let content = document.getElementById('container_meteo');
+                        content.innerHTML = "";
+                        let erreur = document.createElement('h1');
+                        let erreurText = document.createTextNode("Impossible de charger la page demandée");
+                        erreur.append(erreurText);
+                        body.appendChild(erreur);*/
+                    }
                 }
             }
             req.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+villeValue+"&appid=c4aa39fa1bfe493535e5d28c061d3e1c&lang=fr&units=metric", true);
@@ -285,7 +294,7 @@
 <body>
 <div id="container_select">
     <select id="selectDep"></select>
-    <select id="selectVille"></select>
+    <input list="villes" id="selectVille"/>
 </div>
 <div class="content">
     <div id="container_meteo"></div>

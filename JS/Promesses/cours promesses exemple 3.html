@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Test promesses exemple 3</title>
+	</head>
+	<body>
+	</body>
+</html>
+<script>
+	function asynchrone(resolve,reject,duree{
+		      // simulation d'une  requête A asynchrone avec setTimeout
+		      setTimeout( ()=>{
+		      	let a=Math.random();
+		              if (a >0.01 )  resolve(a);
+		                   else   reject(a)
+		      }, duree);
+	 };
+
+	console.log("début des  requêtes Asynchrones")
+
+	asynchrone(
+	(x)=>{ console.log(`1ère requête asynchrone réussie résultat= ${x}`)},
+	(x)=>{ console.log(`1ère requête asynchrone échouée résultat= ${x}`)},
+	5000
+	);
+
+	asynchrone(
+	(x)=>{ console.log(`2ième requête asynchrone réussie résultat= ${x}`)},
+	(x)=>{ console.log(`2ième requête asynchrone échouée résultat= ${x}`)},
+	3000
+	);
+
+
+</script>  

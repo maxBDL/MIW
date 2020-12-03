@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/bd_france.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/biblio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/listDepartements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/listVilles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CEO-Referencement/TP4/img/Rectangle 3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CEO-Referencement/TP4/img/Tracé 12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/indexDatalist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Band.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/models/Band.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/models/Member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/models/Tour.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/create-edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/liste.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
@@ -32,7 +40,16 @@
       <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/email/email_party.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/miw_day3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/scss/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/js/biblio.js" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/js/biblio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/AJAX/TP4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/TP4/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/AJAX/TP4/listVilles.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/TP4/listVilles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" afterDir="false" />
     </list>
@@ -50,14 +67,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CEO-Referencement/TP4" />
   </component>
   <component name="ProjectId" id="1jHI3efjnaDzMk1XzQ5UerixG3m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,25 +86,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/AJAX/TP4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHP/MVC/Music/views/band" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\JS\AJAX\TP4" />
-      <recent name="D:\wamp64\www\MIW\VueJS\TP2\2020_exo_js_1" />
-      <recent name="D:\wamp64\www\MIW\Portfolio\images" />
-      <recent name="D:\wamp64\www\MIW\Portfolio\icons" />
-      <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW" />
+      <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP4\img" />
       <recent name="D:\wamp64\www\MIW\JS\AJAX\TP4" />
       <recent name="D:\wamp64\www\MIW\JS\AJAX\TP3" />
       <recent name="D:\wamp64\www\MIW\Front-End_Mentor\Fini" />
-      <recent name="D:\wamp64\www\MIW\Portfolio\images" />
-      <recent name="D:\wamp64\www\MIW\Front-End_Mentor\En_Cours" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\views\band" />
+      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\controllers" />
+      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\models" />
+      <recent name="D:\wamp64\www\MIW\JS\AJAX\TP4" />
+      <recent name="D:\wamp64\www\MIW\VueJS\TP2\2020_exo_js_1" />
     </key>
   </component>
   <component name="RunManager">
@@ -158,6 +175,16 @@
       <workItem from="1606402367005" duration="10596000" />
       <workItem from="1606415052824" duration="1919000" />
       <workItem from="1606470736492" duration="24744000" />
+      <workItem from="1606507106176" duration="4069000" />
+      <workItem from="1606512758048" duration="5211000" />
+      <workItem from="1606568248881" duration="22346000" />
+      <workItem from="1606650144268" duration="4475000" />
+      <workItem from="1606728456783" duration="5877000" />
+      <workItem from="1606827667623" duration="599000" />
+      <workItem from="1606903005446" duration="13650000" />
+      <workItem from="1606988891904" duration="16000" />
+      <workItem from="1607006652181" duration="3458000" />
+      <workItem from="1607010122205" duration="1513000" />
     </task>
     <servers />
   </component>
@@ -186,10 +213,10 @@
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606471843056" />
     <state x="2731" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605794542020" />
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605622486695">
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606903569552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605622486695" />
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606903569552" />
     <state x="492" y="341" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606146190657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,10 +240,10 @@
     </state>
     <state x="766" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606154569845" />
     <state x="2686" y="245" key="NewPhpClassDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1606137908751" />
-    <state x="2714" y="445" key="NewPhpFileDialog" timestamp="1606499290624">
-      <screen x="1920" y="2" width="1920" height="1040" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606920763228">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606474283203" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606920763228" />
     <state x="2714" y="445" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1606499290624" />
     <state x="2873" y="2" width="974" height="1047" maximized="true" key="dock-window-1" timestamp="1604926839739">
       <screen x="1920" y="2" width="1920" height="1040" />
@@ -229,9 +256,9 @@
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1604308497429" />
     <state x="547" y="236" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606055654089" />
     <state x="2467" y="238" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605797429802" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604497945439">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606922586331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1604497945439" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606922586331" />
   </component>
 </project>

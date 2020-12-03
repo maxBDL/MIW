@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Exemple 5 </title>
+	</head>
+	<body>
+	</body>
+</html>
+<script>
+
+function requeteAsynchrone (duree) {
+      return new Promise(  function (resolve, reject) {
+      console.log("début de la requete Asynchrone")
+      var a=Math.random();
+      setTimeout( function () {
+        if (a > 0.01 )  resolve(a);
+               else    reject(' Requete Asynchrone mal terminée')
+      }, duree);
+      console.log(" requete Asynchrone en cours d'exécution")
+    });
+  }
+
+/* requeteAsynchrone(5000)
+.then((x)=>{requeteAsynchrone(3000)                    //  x résultat de la première requête
+		.then((y)=>{requeteAsynchrone(5000)                   //  y résultat de la deuxième requête
+			.then((z)=>{console.log(`x=${x} y=${y} z=${y} x*y*z=${x*y*z}`)}) //z résultat de la troisième requête                                                                                                   
+			.catch((z)=>{console.log('Echec R3  ' + z)})})
+		.catch((y)=>{console.log('Echec R2  ' + y)})})
+.catch((x)=>{console.log('Echec  R1 ' + x)}); */
+
+requeteAsynchrone(5000)
+.then((x)=>{requeteAsynchrone(3000)})                    //  x résultat de la première requête
+.then((y)=>{requeteAsynchrone(5000)})                  //  y résultat de la deuxième requête
+.then((z)=>{console.log(`x=${x} y=${y} z=${y} x*y*z=${x*y*z}`)}) //z résultat de la troisième requête                                                                                                   
+/* 			.catch((z)=>{console.log('Echec R3  ' + z)})})
+		.catch((y)=>{console.log('Echec R2  ' + y)})})
+.catch((x)=>{console.log('Echec  R1 ' + x)}); */
+
+
+
+
+</script>  

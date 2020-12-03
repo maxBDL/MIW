@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Exemple 4 </title>
+	</head>
+	<body>
+	</body>
+</html>
+<script>
+requeteAsynchrone = (duree) =>{
+      return new Promise(  (resolve, reject) =>{
+      console.log("début de la requête Asynchrone")
+      let a=Math.random();
+      setTimeout( () =>{
+        if (a >0.5) resolve(a);
+               else  reject ('requête Asynchrone mal terminée')
+      }, duree);
+      console.log("…..requête Asynchrone en cours d'exécution")
+    });
+};
+  
+ traitement1 = ()=>{ alert("ok1"); requeteAsynchrone(3000)}
+ traitement2 = ()=>{ alert("ok2"); }
+ 
+ requeteAsynchrone(3000)
+ .catch((data) => { console.log(data)})
+ .then( (data) => { traitement1(data)})
+ .catch((data1) => { console.log(data1)})
+ .then( (data1) => { traitement2(data1)})
+ 
+ 
+  
+
+</script>  

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Test promesses exemple 2</title>
+	</head>
+	<body>
+	</body>
+</html>
+<script>
+      console.log("début des  requêtes Asynchrone");
+
+      // simulation d'une  requête A asynchrone avec setTimeout
+
+      setTimeout( () =>{
+      	a=Math.random();
+              if (a >0.5 ) console.log (`Requête Asynchrone bien terminée le résultat de a = ${a}`);
+               else        console.log ('Requête Asynchrone A mal terminée')
+      }, 5000);
+
+      alert(` a = ${a}`)
+ 
+      // simulation d'une  requête B asynchrone avec setTimeout
+
+      setTimeout( () =>{
+      	b=Math.random();
+              if (b >0.5 ) console.log (`Requête Asynchrone bien terminée le résultat de b = ${b}`);
+               else        console.log ('Requête Asynchrone B mal terminée')
+      }, 3000);
+      
+      alert(` b = ${b}`)
+
+</script>  
