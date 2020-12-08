@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.range-slider{
+    width: 16px;
+}
+
+input{
+    position: relative;
+    top: 190px;
+    left: -200px;
+    width: 400px;
+    height: 16px;
+    transform: rotate(90deg);
+    appearance: none;
+    background: none;
+    outline: none;
+}
+
+.container{
+    width: 340px;
+    height: 400px;
+    background-color: #ffefca;
+    display: flex;
+    flex-direction: row;
+
+}
