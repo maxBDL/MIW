@@ -20,36 +20,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CEO-Referencement/TP4/img/Rectangle 3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CEO-Referencement/TP4/img/Tracé 12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/indexDatalist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/TP4/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Band.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/models/Band.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/models/Member.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/models/Tour.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/create-edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/liste.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Rectangle 3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Tracé 12.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/css/style.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/email/email_party.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3/miw_day3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CEO-Referencement/TP4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/scss/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML-CSS/Starter_HTML/js/biblio.js" beforeDir="false" afterPath="$PROJECT_DIR$/Starter_HTML/js/biblio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/TP4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/TP4/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/TP4/listVilles.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/TP4/listVilles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP1/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/css/styleOld.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP1/css/styleOld.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP1/indexOld.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP1/indexOld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/css/scss/_flaticon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/css/scss/_flaticon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/css/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/css/scss/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/font/Flaticon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/font/Flaticon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/font/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/font/Flaticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/font/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/font/Flaticon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/font/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/font/Flaticon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/font/Flaticon.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/font/Flaticon.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/image/lauzanne_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/image/lauzanne_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/image/lauzanne_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/image/lauzanne_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/maquette/lausanne_desktop.png" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/maquette/lausanne_desktop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP2/maquette/lausanne_mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP2/maquette/lausanne_mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/css/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/css/scss/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/css/scss/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/css/scss/_variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/desinscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/desinscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/email/email_party.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/send_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/send_email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/COMMITMENT" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/COMMITMENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/get_oauth_token.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/OAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/OAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3_Sauvegarde/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEO-Referencement/TP4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/email/email_party.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/miw_day3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" afterDir="false" />
     </list>
@@ -74,7 +160,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CEO-Referencement/TP4" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Integration/TP4" />
   </component>
   <component name="ProjectId" id="1jHI3efjnaDzMk1XzQ5UerixG3m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -184,7 +270,10 @@
       <workItem from="1606903005446" duration="13650000" />
       <workItem from="1606988891904" duration="16000" />
       <workItem from="1607006652181" duration="3458000" />
-      <workItem from="1607010122205" duration="1513000" />
+      <workItem from="1607010122205" duration="3704000" />
+      <workItem from="1607021765225" duration="1200000" />
+      <workItem from="1607344538299" duration="1246000" />
+      <workItem from="1607382952136" duration="3000" />
     </task>
     <servers />
   </component>
