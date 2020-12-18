@@ -51,6 +51,7 @@
   }
 }
 
+
 .presentation_text{
   display: flex;
   flex-direction: column;
@@ -60,5 +61,27 @@
   p{
     text-align: center;
     color: $white;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .presentation_container{
+    flex-direction: row;
+    width: 60%;
+    background-color: $dark_grey;
+    border-radius: 50px;
+    .presentation{
+      width: 50%;
+      height: 100%;
+      margin-bottom: 0;
+      border-right: solid 3px $white;
+    }
+    .competences{
+      width: 50%;
+    }
+  }
+  .presentation_text{
+    margin-bottom: 50px;
   }
 }

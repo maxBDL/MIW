@@ -30,7 +30,6 @@ class BandController extends Controller
 
     public function post(BandModel $band)
     {
-
         $band->fill($_POST);
         $band->save();
         header('Location: '.WEB_ROOT.'band/liste');

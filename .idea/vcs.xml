@@ -10,6 +10,8 @@
     <mapping directory="$PROJECT_DIR$/HTML-CSS/Enercol/2020_enercol" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Integration/TP3/miw_day3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Integration/TP4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Node-React/node-api-starting-point" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Node-React/react-front-template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Portfolio" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" vcs="Git" />
   </component>

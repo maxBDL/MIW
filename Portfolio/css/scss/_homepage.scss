@@ -53,17 +53,15 @@ nav{
 }
 
 
-
-
-
-
-
-/*@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px){
   nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
     p{
+      position: absolute;
+      left: 15px;
       font-family: "Libre Baskerville Italic";
       color: $dark_grey;
     }
@@ -73,6 +71,10 @@ nav{
       display: flex;
       flex-direction: row;
       justify-content: center;
+      border-radius: 25px;
+    }
+    svg{
+      display: none;
     }
   }
 
@@ -81,6 +83,8 @@ nav{
     width: 20%;
     margin: 2.5%;
     a{
+      width: 100%;
+      font-size: 1.4em;
       font-family: "Libre Baskerville Italic";
       color: $white;
     }
@@ -123,4 +127,4 @@ nav{
       }
     }
   }
-}*/
+}

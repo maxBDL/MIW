@@ -35,3 +35,9 @@ form{
     margin-top: 10px;
   }
 }
+
+@media screen and (min-width: 992px){
+  .form{
+    width: 60%;
+  }
+}

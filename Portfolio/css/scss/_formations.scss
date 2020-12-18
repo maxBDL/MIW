@@ -11,12 +11,59 @@
   .formation_card{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     margin: 12px;
     padding: 15px;
     width: 90%;
     background-color: $dark_grey;
     border-radius: 25px;
+  }
+}
+
+.formation_card{
+  h3{
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  p{
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .formation_contenu{
+    margin-top: 25px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.formation_contenu{
+  .formation_svg{
+    width: 30%;
+  }
+  .formation_option{
+    width: 60%;
+  }
+}
+
+.formation_option{
+  p{
+    text-align: left;
+  }
+  ul{
+    color: $white;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .formation{
+    width: 60%;
   }
 }
