@@ -19,59 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_promoPrec.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_teacher.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_var.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Rectangle 3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Tracé 12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node-React/V2/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node-React/V2/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/components/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/types/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/controllers/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/controllers/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/SPDO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/models/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/models/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/article/create-edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/article/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/categorie/create-edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/categorie/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/categorie/liste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/email/email_party.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/miw_day3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP4" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node-React/node-api-starting-point" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Band.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Band.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/MVC/Music/views/band/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" afterDir="false" />
-    </list>
+    <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +170,8 @@
       <workItem from="1608104927267" duration="9777000" />
       <workItem from="1608141692761" duration="617000" />
       <workItem from="1608194303932" duration="406000" />
+      <workItem from="1608313558461" duration="2578000" />
+      <workItem from="1608384018483" duration="8176000" />
     </task>
     <servers />
   </component>

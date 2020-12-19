@@ -1,6 +1,16 @@
 .footer{
   width: 100%;
-  display: none;
+  background-image: url("fond_footer_mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position-x: -59px;
+  .miw_contact{
+    width: 100%;
+  }
+  .outro{
+    width: 100%;
+    padding-top: 50px;
+  }
 }
 .label:nth-child(5){
   width: 100%;
