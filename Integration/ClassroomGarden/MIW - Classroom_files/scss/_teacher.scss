@@ -27,7 +27,7 @@
     align-items: center;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x proximity;
     >li{
       flex: 1 0 300px;
       margin-left: 1rem;
@@ -97,3 +97,4 @@
     margin-right: 10px;
   }
 }
+

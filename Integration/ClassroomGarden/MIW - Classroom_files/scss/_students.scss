@@ -69,3 +69,30 @@
     font-size: 2em;
   }
 }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .classroom{
+    h2{
+      background-image: url("fond_students_desktop.svg");
+      height: 300px;
+      padding: 100px;
+    }
+    ul{
+      width: 75%;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    li{
+      width: 25%;
+      margin-bottom: 50px;
+      height: 400px;
+    }
+  }
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
