@@ -28,6 +28,8 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     scroll-snap-type: x proximity;
+    color: $white;
+
     >li{
       flex: 1 0 300px;
       margin-left: 1rem;
@@ -48,7 +50,7 @@
         position: relative;
         top: -75px;
         left: 100px;
-        //left: 35%;
+        color: $white;
         z-index: 2;
       }
 
