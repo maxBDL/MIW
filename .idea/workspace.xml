@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_print.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_students.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_students.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_teacher.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_teacher.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +180,7 @@
       <workItem from="1608384018483" duration="30411000" />
       <workItem from="1609164689145" duration="31000" />
       <workItem from="1609598012242" duration="2869000" />
-      <workItem from="1609709716377" duration="3082000" />
+      <workItem from="1609709716377" duration="4573000" />
     </task>
     <servers />
   </component>
