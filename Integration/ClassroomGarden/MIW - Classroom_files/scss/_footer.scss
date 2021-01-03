@@ -77,3 +77,18 @@
   width: 100%;
   word-break: break-word;
 }
+
+@media (min-width: 768px) {
+
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .footer{
+    .outro{
+      padding-top: 150px;
+      width: 60%;
+    }
+  }
+}

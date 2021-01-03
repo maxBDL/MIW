@@ -28,3 +28,14 @@ header h1{
 .promo-2021{
   order: 1;
 }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .intro{
+    background-image: url("../MIW - Classroom_files/fond_desktop.svg");
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
