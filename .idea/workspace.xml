@@ -19,40 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_promoPrec.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_teacher.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_var.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/style.scss" afterDir="false" />
+    <list default="true" id="8bc50c0f-9a57-457c-91af-e7ba8fb077ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/scss/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/scss/_variable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/MIW-Weather/home.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Rectangle 3.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Tracé 12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node-React/V2/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node-React/V2/.eslintrc.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/components/App.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/types/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/controllers/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/controllers/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/SPDO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/core/core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/models/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/models/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/article/create-edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/article/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/categorie/create-edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/categorie/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/categorie/liste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Controle/views/layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Member.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
@@ -63,12 +42,11 @@
       <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/miw_day3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration/TP4" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node-React/node-api-starting-point" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Band.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/Music/controllers/Band.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/MVC/Music/views/band/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/MVC/Music/views/band/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" afterDir="false" />
     </list>
@@ -80,13 +58,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="C:\Users\Maxime\Mes documents" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
       </list>
@@ -95,7 +69,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jHI3efjnaDzMk1XzQ5UerixG3m" />
+  <component name="ProjectId" id="1mw3LFlO1bUqNMdIV03Wz4TxuYo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -105,123 +79,28 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHP/MVC/Controle/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\wamp64\www\MIW\Node-React\V2\node_modules\typescript\lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Controle\views" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Controle" />
-      <recent name="D:\wamp64\www\MIW\SEO-Referencement" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\views\band" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\Node-React\V2" />
-      <recent name="D:\wamp64\www\MIW\Node-React\node-api-starting-point\src\db\shemas" />
-      <recent name="D:\wamp64\www\MIW\Node-React\node-api-starting-point" />
-      <recent name="D:\wamp64\www\MIW" />
-      <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP4\img" />
+      <recent name="D:\wamp64\www\MIW\Integration\MIW-Weather\icons" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="config.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MIW/JS/AJAX/Ex6/config.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.config.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="" />
-      <created>1603454392870</created>
+      <changelist id="8bc50c0f-9a57-457c-91af-e7ba8fb077ad" name="Default Changelist" comment="" />
+      <created>1610390767774</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603454392870</updated>
-      <workItem from="1603454393977" duration="1876000" />
-      <workItem from="1603538226904" duration="3915000" />
-      <workItem from="1603632089819" duration="17596000" />
-      <workItem from="1603718244180" duration="5548000" />
-      <workItem from="1603731093743" duration="1223000" />
-      <workItem from="1603732537881" duration="830000" />
-      <workItem from="1603899377057" duration="6530000" />
-      <workItem from="1603973699815" duration="7091000" />
-      <workItem from="1604073484646" duration="11140000" />
-      <workItem from="1604143884142" duration="640000" />
-      <workItem from="1604251074811" duration="8400000" />
-      <workItem from="1604307021229" duration="2398000" />
-      <workItem from="1604410368923" duration="617000" />
-      <workItem from="1604416243945" duration="5651000" />
-      <workItem from="1604476926674" duration="14748000" />
-      <workItem from="1604579633034" duration="1215000" />
-      <workItem from="1604580862454" duration="10343000" />
-      <workItem from="1604595070956" duration="4223000" />
-      <workItem from="1604615825094" duration="2751000" />
-      <workItem from="1604651348454" duration="13955000" />
-      <workItem from="1604744755226" duration="615000" />
-      <workItem from="1604783311319" duration="407000" />
-      <workItem from="1604912185528" duration="1279000" />
-      <workItem from="1604913513987" duration="19397000" />
-      <workItem from="1604951675227" duration="7394000" />
-      <workItem from="1605002704173" duration="11805000" />
-      <workItem from="1605122909180" duration="1210000" />
-      <workItem from="1605182181904" duration="12484000" />
-      <workItem from="1605259024601" duration="6056000" />
-      <workItem from="1605265467284" duration="18306000" />
-      <workItem from="1605437044617" duration="6042000" />
-      <workItem from="1605453122061" duration="23280000" />
-      <workItem from="1605517519815" duration="14013000" />
-      <workItem from="1605541235913" duration="2769000" />
-      <workItem from="1605555569979" duration="2352000" />
-      <workItem from="1605622411731" duration="29583000" />
-      <workItem from="1605686461678" duration="42742000" />
-      <workItem from="1605778990986" duration="1110000" />
-      <workItem from="1605780487188" duration="34838000" />
-      <workItem from="1605859892927" duration="20838000" />
-      <workItem from="1605910921149" duration="1013000" />
-      <workItem from="1605964282972" duration="24641000" />
-      <workItem from="1606046518505" duration="17547000" />
-      <workItem from="1606121826062" duration="27410000" />
-      <workItem from="1606224978426" duration="18450000" />
-      <workItem from="1606291345393" duration="34324000" />
-      <workItem from="1606380953613" duration="11995000" />
-      <workItem from="1606402367005" duration="10596000" />
-      <workItem from="1606415052824" duration="1919000" />
-      <workItem from="1606470736492" duration="24744000" />
-      <workItem from="1606507106176" duration="4069000" />
-      <workItem from="1606512758048" duration="5211000" />
-      <workItem from="1606568248881" duration="22346000" />
-      <workItem from="1606650144268" duration="4475000" />
-      <workItem from="1606728456783" duration="5877000" />
-      <workItem from="1606827667623" duration="599000" />
-      <workItem from="1606903005446" duration="13650000" />
-      <workItem from="1606988891904" duration="16000" />
-      <workItem from="1607006652181" duration="3458000" />
-      <workItem from="1607010122205" duration="3704000" />
-      <workItem from="1607021765225" duration="1200000" />
-      <workItem from="1607344538299" duration="1246000" />
-      <workItem from="1607382952136" duration="3000" />
-      <workItem from="1607440031280" duration="1175000" />
-      <workItem from="1607500981163" duration="698000" />
-      <workItem from="1607504645046" duration="10700000" />
-      <workItem from="1607587629950" duration="3005000" />
-      <workItem from="1607594724803" duration="1421000" />
-      <workItem from="1607603675737" duration="3471000" />
-      <workItem from="1607696997728" duration="1111000" />
-      <workItem from="1607792187572" duration="1199000" />
-      <workItem from="1607855832569" duration="4267000" />
-      <workItem from="1607944747237" duration="10542000" />
-      <workItem from="1608023037739" duration="13477000" />
-      <workItem from="1608104927267" duration="9777000" />
-      <workItem from="1608141692761" duration="617000" />
-      <workItem from="1608194303932" duration="406000" />
+      <updated>1610390767774</updated>
+      <workItem from="1610390776889" duration="6536000" />
+      <workItem from="1610438969464" duration="1239000" />
     </task>
     <servers />
   </component>
@@ -239,78 +118,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="757" y="309" key="#Web_Browsers" timestamp="1605454941620">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1605454941620" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606471843056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606471843056" />
-    <state x="2731" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605794542020" />
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608112413500">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1608112413500" />
-    <state x="492" y="341" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606146190657">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="492" y="341" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606146190657" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604500507466">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1604500507466" />
-    <state x="469" y="208" key="EditFileWatcherDialog" timestamp="1603455960404">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="469" y="208" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1603455960404" />
-    <state x="2616" y="209" key="FileChooserDialogImpl" timestamp="1606470961221">
-      <screen x="1920" y="2" width="1920" height="1040" />
-    </state>
-    <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1604258496590" />
-    <state x="696" y="207" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606402383931" />
-    <state x="2616" y="209" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1606470961221" />
-    <state x="766" y="243" key="NewPhpClassDialog" timestamp="1606154569845">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="766" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606154569845" />
-    <state x="2686" y="245" key="NewPhpClassDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1606137908751" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607857541001">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1607857541001" />
-    <state x="2714" y="445" key="NewPhpFileDialog/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1606499290624" />
-    <state width="509" height="446" key="SwitcherDM" timestamp="1608111893363">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="509" height="446" key="SwitcherDM/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1608111893363" />
-    <state x="2873" y="2" width="974" height="1047" maximized="true" key="dock-window-1" timestamp="1604926839739">
-      <screen x="1920" y="2" width="1920" height="1040" />
-    </state>
-    <state x="1810" y="0" width="589" height="847" maximized="true" key="dock-window-1/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1603708104225" />
-    <state x="2873" y="2" width="974" height="1047" maximized="true" key="dock-window-1/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1604926839739" />
-    <state x="547" y="236" key="run.anything.popup" timestamp="1608117334235">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1604308497429" />
-    <state x="547" y="236" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1608117334235" />
-    <state x="2467" y="238" key="run.anything.popup/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1605797429802" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606922586331">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1606922586331" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Node-React/node-api-starting-point/src/types/database.ts</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
