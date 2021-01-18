@@ -71,6 +71,7 @@
                         throw new Error(" impossible chager les catégories")
                 }
             }
+            console.log(elmValue)
             req.open("GET", "listVilles.php?dep="+elmValue, true);
             req.send(null);
         }

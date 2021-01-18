@@ -1,5 +1,4 @@
 
-
 .header{
   display: flex;
   flex-direction: column;
@@ -62,6 +61,14 @@ h1 + svg{
   }
 }
 
+hr{
+  width: 80%;
+  transform: rotate(90deg);
+  height: 5px;
+  margin: 0;
+  background-color: $orange;
+}
+
 .search{
   height: 55px;
   width: 210px;
@@ -87,11 +94,15 @@ h1 + svg{
 }
 
 h2{
+  direction: ltr;
+  text-align: end;
+  margin: 0 auto;
   width: 80%;
   color: $dark_blue;
   font-size: 30px;
   font-family: Poppins;
-  p{
+  margin-bottom: 50px;
+  span{
     color: $orange;
     margin: 0px;
   }
@@ -124,10 +135,60 @@ h2{
 }
 
 footer{
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
+  p{
+    color: $dark_blue;
+    font-size: 20px;
+    font-family: Poppins;
+  }
+}
+
+@media (min-width: 992px) {
+  body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header{
+    width: 50%;
+    height: 100vh;
+    h1{
+      font-size: 50px;
+      position: relative;
+      right: 33vh;
+      margin-top: 0;
+    }
+    h1 + svg{
+      position: relative;
+      left: 20vh;
+      bottom: 10vh;
+      width: 55%;
+      height: auto;
+    }
+    .buttons{
+      position: relative;
+      bottom: 45px;
+      margin: 0;
+    }
+  }
+  .explication{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 33%;
+    height: 100vh;
+    .etapes{
+      margin-bottom: 10px;
+    }
+  }
+
+
 }
