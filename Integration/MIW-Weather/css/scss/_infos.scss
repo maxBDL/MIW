@@ -64,3 +64,42 @@
     font-size: 20px;
   }
 }
+
+
+.measures{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 10%;
+  }
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 25%;
+  border-radius: 50%;
+  img{
+    width: 100%;
+  }
+  .value{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 50%;
+    }
+    p{
+      font-family: Poppins;
+      font-size: 25px;
+      color: $dark_blue;
+    }
+  }
+
+}

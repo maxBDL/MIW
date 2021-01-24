@@ -337,3 +337,11 @@ img{
   width: 100%;
 }
 
+*:focus {
+  outline: none;
+}
+
+a:active,
+a:focus {
+  -moz-outline-style: none;
+}
