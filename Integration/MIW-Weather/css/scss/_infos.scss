@@ -1,0 +1,105 @@
+.infos{
+  position: relative;
+  bottom: 85.8vh;
+  height: 75%;
+  width: 100%;
+  background-color: $dark_white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 2;
+
+  ///
+  /*display: none;*/
+  ///
+}
+
+.nav_infos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $dark_blue;
+  height: 80px;
+  border-radius:0 0 50px 50px;
+  .time{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p{
+      color: $white;
+      line-height: 30px;
+    }
+  }
+  .trait{
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.adress{
+  width: 100%;
+  text-align: center;
+  color: $dark_blue;
+  font-family: Poppins;
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+  }
+}
+
+
+.measures{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 10%;
+  }
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 25%;
+  border-radius: 50%;
+  img{
+    width: 100%;
+  }
+  .value{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 50%;
+    }
+    p{
+      font-family: Poppins;
+      font-size: 25px;
+      color: $dark_blue;
+    }
+  }
+
+}

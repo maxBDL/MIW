@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <label>Code postal</label>
+    <input id="codeP" type="number">
+    <label>Ville</label>
+    <input id="ville" type="text">
+    <button onclick="ajoutItem()">Ajouter au stockage</button>
+    <button onclick="localStorage.clear()">Tout supprimer</button>
+    <ul id="result"></ul>
+</body>
+</html>
+
+<script>
+    function ajoutItem(){
+        if(typeof localStorage !='undefined') {
+            let codeP = document.getElementById("codeP").value;
+            let ville = document.getElementById("ville").value;
+            let villes = JSON.parse(localStorage.getItem('villes'));
+            if (villes == null){
+                villes = [[codeP,ville]];
+            }else{
+                var newVille  = [[codeP,ville]];
+                villes.push(newVille);
+            }
+            var villesJson = JSON.stringify(villes);
+            localStorage.setItem("villes",villesJson);
+            affich();
+        }
+    }
+
+    function affich(){
+        let zone = document.getElementById("result");
+        console.log(zone.childElementCount);
+        if (zone.childElementCount != 0){
+            zone.removeChild();
+        }
+        let villesJson = localStorage.getItem('villes');
+        let villes = JSON.parse(villesJson);
+        villes.forEach(ville =>{
+            let li = document.createElement('li');
+            li.append(ville);
+            zone.appendChild(li);
+        });
+    }
+
+    onload = affich;
+</script>

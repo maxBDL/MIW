@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps</title>
+    <link href="css/map.css" rel="stylesheet" media="all" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="nav_gauche">
+            <div class="zoom">
+                <button type="button"><p>+</p></button>
+                <button type="button"><p>-</p></button>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Ville, adresse, ....">
+                <button><svg xmlns="http://www.w3.org/2000/svg" width="35.204" height="36.987" viewBox="0 0 35.204 36.987">
+                    <g id="Search" transform="translate(0 0)">
+                        <path id="Tracé_4" data-name="Tracé 4" d="M132.3,127.8a1.428,1.428,0,0,1-1.055-.456L121.32,116.65a1.391,1.391,0,0,1-.371-1.027,1.623,1.623,0,0,1,.456-1A12,12,0,0,0,113.65,93.7a12.007,12.007,0,1,0-.086,24.009h.028a1.424,1.424,0,0,1,1.426,1.4,1.449,1.449,0,0,1-1.4,1.454A14.879,14.879,0,1,1,124.8,115.2c-.143.171-.285.342-.428.485l8.982,9.7a1.414,1.414,0,0,1-.086,2.025A1.292,1.292,0,0,1,132.3,127.8Z" transform="translate(-98.536 -90.812)" fill="#ff8f15"/>
+                    </g>
+                </svg>
+                </button>
+            </div>
+            <button class="localisation"><svg xmlns="http://www.w3.org/2000/svg" width="26.808" height="26.809" viewBox="0 0 26.808 26.809">
+                <g id="noun_Navigation_3179702" transform="translate(-46.75 -56.749)">
+                    <path id="Tracé_1184" data-name="Tracé 1184" d="M33.363,6.944A.662.662,0,0,0,32.6,6.82L7.117,19.56a.664.664,0,0,0-.1,1.124l3.824,2.868L6.807,32.624a.663.663,0,0,0,.876.876l9.072-4.032,2.868,3.824a.664.664,0,0,0,1.124-.1L33.488,7.71A.663.663,0,0,0,33.363,6.944ZM20.041,31.637,17.5,28.249a.663.663,0,0,0-.8-.208L8.721,31.587l3.546-7.979a.663.663,0,0,0-.208-.8L8.671,20.267,31.411,8.9Z" transform="translate(40 50)" fill="#ff8f15"/>
+                </g>
+            </svg>
+            </button>
+        </div>
+        <div class="nav_droite">
+            <input type="text" disabled>
+            <input type="text" disabled>
+        </div>
+    </nav>
+
+    <div class="carte" id="carte"></div>
+
+    <div class="infos">
+        <div class="nav_infos">
+            <div class="time">
+                <svg id="noun_History_1935411" xmlns="http://www.w3.org/2000/svg" width="30" height="27.055" viewBox="0 0 30 27.055">
+                    <path id="Tracé_26" data-name="Tracé 26" d="M107.719,148.648a13.527,13.527,0,1,1,.728-27.035,1.14,1.14,0,1,1-.137,2.276,11.257,11.257,0,0,0-8.147,19.593,11.253,11.253,0,0,0,18.8-8.625,1.143,1.143,0,0,1,2.162-.546l2.936,5.78a1.135,1.135,0,1,1-2.025,1.024l-1.229-2.435a13.484,13.484,0,0,1-4.6,7.009,13.708,13.708,0,0,1-8.488,2.958Z" transform="translate(-94.178 -121.593)" fill="#fff"/>
+                    <path id="Tracé_27" data-name="Tracé 27" d="M464,271.646a1.141,1.141,0,0,1-1.152-1.152v-7.88a1.152,1.152,0,0,1,2.3,0v7.88A1.155,1.155,0,0,1,464,271.646Z" transform="translate(-450.571 -256.834)" fill="#fff"/>
+                    <path id="Tracé_28" data-name="Tracé 28" d="M471.88,497.238H464a1.152,1.152,0,1,1,0-2.3h7.88a1.141,1.141,0,0,1,1.152,1.152A1.155,1.155,0,0,1,471.88,497.238Z" transform="translate(-450.636 -482.503)" fill="#fff"/>
+                </svg>
+                <p>10h50: 21/12/2020</p>
+            </div>
+            <div class="trait">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="5" viewBox="0 0 56 5">
+                    <line id="Ligne_4" data-name="Ligne 4" x2="51" transform="translate(2.5 2.5)" fill="none" stroke="#ff8f15" stroke-linecap="round" stroke-width="5"/>
+                </svg>
+            </div>
+            <div class="icons">
+                <div>
+                    <svg id="Refresh" xmlns="http://www.w3.org/2000/svg" width="22.114" height="20" viewBox="0 0 22.114 20">
+                        <path id="Tracé_20" data-name="Tracé 20" d="M89.982,141.094h-.035a.885.885,0,0,1-.833-.72l-.922-4.933a.883.883,0,0,1,1.737-.316l.39,2.089a10.449,10.449,0,0,1,5-4.2,10.647,10.647,0,0,1,13.01,4.231.88.88,0,0,1-.3,1.211.9.9,0,0,1-1.223-.3,8.855,8.855,0,0,0-10.812-3.511,8.675,8.675,0,0,0-5.158,5.793.872.872,0,0,1-.851.65Zm9.2,11.147a10.644,10.644,0,0,1-9.057-5,.88.88,0,0,1,.3-1.211.9.9,0,0,1,1.223.3,8.871,8.871,0,0,0,10.83,3.511,8.665,8.665,0,0,0,5.158-5.811.874.874,0,0,1,.886-.65.885.885,0,0,1,.833.72l.922,4.933a.883.883,0,0,1-1.737.316l-.39-2.089a10.488,10.488,0,0,1-4.981,4.2,10.689,10.689,0,0,1-3.988.79Z" transform="translate(-88.177 -132.242)" fill="#fff"/>
+                    </svg>
+                </div>
+                <div>
+                    <svg id="Home" xmlns="http://www.w3.org/2000/svg" width="27.422" height="26.29" viewBox="0 0 27.422 26.29">
+                        <path id="Tracé_9" data-name="Tracé 9" d="M113.411,119.658a.948.948,0,0,1-.707-.3l-10.468-10.468a2.134,2.134,0,0,0-3.011,0L88.778,119.355a1.015,1.015,0,0,1-1.435-1.435l10.468-10.468a4.171,4.171,0,0,1,5.88,0l10.468,10.468a1,1,0,0,1,0,1.435A1.108,1.108,0,0,1,113.411,119.658Z" transform="translate(-87.04 -106.24)" fill="#fff"/>
+                        <path id="Tracé_10" data-name="Tracé 10" d="M183.381,411.437H170.327a4.575,4.575,0,0,1-4.567-4.567V395.25a1.01,1.01,0,0,1,2.021,0V406.87a2.548,2.548,0,0,0,2.546,2.546h13.054a2.548,2.548,0,0,0,2.546-2.546V400.3a1.01,1.01,0,1,1,2.021,0v6.568A4.562,4.562,0,0,1,183.381,411.437Z" transform="translate(-163.274 -385.147)" fill="#fff"/>
+                    </svg>
+                </div>
+                <div>
+                    <svg id="Close" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path id="Tracé_21" data-name="Tracé 21" d="M210.97,242.7a.929.929,0,0,1-.693-.3l-6.515-6.515a.994.994,0,0,1,1.406-1.406L211.683,241a.98.98,0,0,1,0,1.406A1,1,0,0,1,210.97,242.7Zm-9.03-9.049a.929.929,0,0,1-.693-.3l-8.95-8.931a.994.994,0,0,1,1.406-1.406l8.95,8.95a.98.98,0,0,1,0,1.406A1.075,1.075,0,0,1,201.94,233.651Z" transform="translate(-192 -222.7)" fill="#fff"/>
+                        <path id="Tracé_22" data-name="Tracé 22" d="M192.99,242.08a.929.929,0,0,1-.693-.3.98.98,0,0,1,0-1.406l18-18a.994.994,0,0,1,1.406,1.406l-18,18A1.04,1.04,0,0,1,192.99,242.08Z" transform="translate(-192 -222.08)" fill="#fff"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="adress">
+            <h1>Die, 26150</h1>
+            <h2>Rue du 1er mars 2028</h2>
+        </div>
+        <div class="measures">
+            <img src="icons/DripDripDrip.svg">
+            <div class="data">
+                <div class="value">
+                    <img src="icons/Humidity.svg">
+                    <p>5%</p>
+                </div>
+                <img src="icons/fond_claire.svg">
+            </div>
+            <div class="data">
+                <div class="value">
+                    <img src="icons/now.svg">
+                    <p>5%</p>
+                </div>
+                <img src="icons/fond_claire.svg">
+            </div>
+            <div class="data">
+                <div class="value">
+                    <img src="icons/heat.svg">
+                    <p>5%</p>
+                </div>
+                <img src="icons/fond_claire.svg">
+            </div>
+            <div class="data">
+                <div class="value">
+                    <img src="icons/cold.svg">
+                    <p>5%</p>
+                </div>
+                <img src="icons/fond_claire.svg">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    let carte = L.map('carte', {center: [46.3630104, 2.9846608],zoom: 5, zoomControl: false, attributionControl : false});
+    /* On aurait aussi pu écrire
+    let carte = L.map('maCarte').setView([46.3630104, 2.9846608],5 );
+    */
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(carte);
+    /*let marker = L.marker([44.566667,6.083333]);
+    marker.addTo(carte);*/
+
+</script>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.998" height="199.834" viewBox="0 0 81.998 199.834">
+  <defs>
+    <filter id="Drops" x="21" y="0" width="60.998" height="96.834" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Drops-2" x="0" y="79" width="49.868" height="76.428" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Drops-3" x="31.772" y="126.417" width="48.226" height="73.417" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Drip_Drip_Drip" data-name="Drip Drip Drip" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Drops)">
+      <path id="Drops-4" data-name="Drops" d="M6645.7-2250.883s-19.565,36.671-18.648,54.247,12.207,24.987,22.934,24.571,20.892-8.657,19.975-26.233S6645.7-2250.883,6645.7-2250.883Z" transform="translate(-6597.02 2256.88)" fill="#193b6a"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Drops-2)">
+      <path id="Drops-5" data-name="Drops" d="M6640.868-2250.883s-14.5,27.179-13.821,40.205,9.047,18.519,17,18.211,15.484-6.416,14.8-19.443S6640.868-2250.883,6640.868-2250.883Z" transform="translate(-6618.02 2335.88)" fill="#ff8f15"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Drops-3)">
+      <path id="Drops-6" data-name="Drops" d="M6640.154-2250.883s-13.753,25.778-13.109,38.133,8.581,17.565,16.122,17.272,14.686-6.085,14.042-18.44S6640.154-2250.883,6640.154-2250.883Z" transform="translate(-6586.25 2383.3)" fill="#004dff" opacity="0.441"/>
+    </g>
+  </g>
+</svg>

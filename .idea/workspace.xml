@@ -19,8 +19,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="8bc50c0f-9a57-457c-91af-e7ba8fb077ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Rectangle 3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration/TP4/img/Tracé 12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/components/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/types/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/MIW-Weather/css/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/MIW-Weather/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/MIW-Weather/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.map" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/css/style.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/email/email_party.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/email/email_party.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP3/miw_day3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP3/miw_day3/miw_day3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP4" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/TP4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node-React/react-front-template/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Node-React/react-front-template/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueJS/TP2/2020_exo_js_1/exo_1.js" afterDir="false" />
+=======
     <list default="true" id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_teacher.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/_teacher.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/ClassroomGarden/MIW - Classroom_files/style.css" afterDir="false" />
+>>>>>>> 7c21a13b5b4a3c9959425ed8c793c11c2c2c1029
+>>>>>>> 3172040593857b8eca86341869c488ea2dd0b6e0
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +62,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="C:\Users\Maxime\Mes documents" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="JavaScript File" />
+=======
+        <option value="HTML File" />
+>>>>>>> 3172040593857b8eca86341869c488ea2dd0b6e0
         <option value="CSS File" />
         <option value="HTML File" />
       </list>
@@ -45,7 +78,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jHI3efjnaDzMk1XzQ5UerixG3m" />
+  <component name="ProjectId" id="1mw3LFlO1bUqNMdIV03Wz4TxuYo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,45 +88,43 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Puissance 4" />
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/React-Barathon-main" />
+>>>>>>> 7c21a13b5b4a3c9959425ed8c793c11c2c2c1029
+>>>>>>> 3172040593857b8eca86341869c488ea2dd0b6e0
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
+=======
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+>>>>>>> 7c21a13b5b4a3c9959425ed8c793c11c2c2c1029
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Controle\views" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Controle" />
-      <recent name="D:\wamp64\www\MIW\SEO-Referencement" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\views\band" />
-      <recent name="D:\wamp64\www\MIW\PHP\MVC\Music\controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\MIW\Node-React\V2" />
-      <recent name="D:\wamp64\www\MIW\Node-React\node-api-starting-point\src\db\shemas" />
-      <recent name="D:\wamp64\www\MIW\Node-React\node-api-starting-point" />
-      <recent name="D:\wamp64\www\MIW" />
-      <recent name="D:\wamp64\www\MIW\CEO-Referencement\TP4\img" />
+      <recent name="D:\wamp64\www\MIW\Integration\MIW-Weather\icons" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="config.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MIW/JS/AJAX/Ex6/config.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.config.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ffc70502-d942-4b2a-b4c8-defe43b9aba5" name="Default Changelist" comment="" />
-      <created>1603454392870</created>
+      <changelist id="8bc50c0f-9a57-457c-91af-e7ba8fb077ad" name="Default Changelist" comment="" />
+      <created>1610390767774</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1610390767774</updated>
+      <workItem from="1610390776889" duration="6536000" />
+      <workItem from="1610438969464" duration="1914000" />
+=======
       <updated>1603454392870</updated>
       <workItem from="1603454393977" duration="1876000" />
       <workItem from="1603538226904" duration="3915000" />
@@ -176,8 +207,13 @@
       <workItem from="1608384018483" duration="30411000" />
       <workItem from="1609164689145" duration="31000" />
       <workItem from="1609598012242" duration="2869000" />
+<<<<<<< HEAD
       <workItem from="1609709716377" duration="5193000" />
       <workItem from="1611405629663" duration="568000" />
+=======
+      <workItem from="1609709716377" duration="4573000" />
+>>>>>>> 7c21a13b5b4a3c9959425ed8c793c11c2c2c1029
+>>>>>>> 3172040593857b8eca86341869c488ea2dd0b6e0
     </task>
     <servers />
   </component>
@@ -196,6 +232,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="WindowStateProjectService">
     <state x="757" y="309" key="#Web_Browsers" timestamp="1605454941620">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -272,4 +310,5 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+>>>>>>> 7c21a13b5b4a3c9959425ed8c793c11c2c2c1029
 </project>

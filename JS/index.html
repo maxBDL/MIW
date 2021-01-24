@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="grand" style="width: 400px;height: 400px;background-color: #6d6f71;margin: 50px">
+        <div id="petit"style="width: 100px;height: 100px;background-color: #2b542c"></div>
+    </div>
+    <div id="grand1" style="width: 400px;height: 400px;background-color: #6d6f71;margin: 50px">
+        <div id="petit1"style="width: 100px;height: 100px;background-color: #2b542c"></div>
+    </div>
+    <div id="grand2" style="width: 400px;height: 400px;background-color: #6d6f71;margin: 50px">
+        <div id="petit2"style="width: 100px;height: 100px;background-color: #2b542c"></div>
+    </div>
+    <div id="grand3" style="width: 400px;height: 400px;background-color: #6d6f71;margin: 50px">
+        <div id="petit3"style="width: 100px;height: 100px;background-color: #2b542c"></div>
+    </div>
+</body>
+</html>
+
+<script>
+    function eventsAction() {
+        let petit = document.getElementById("petit");
+        let grand = document.getElementById("grand");
+
+        petit.addEventListener('click', function (e) {alert('vert')}, false);
+        grand.addEventListener('click', function (e) {alert('gris')}, false);
+
+        let petit1 = document.getElementById("petit1");
+        let grand1 = document.getElementById("grand1");
+
+        petit1.addEventListener('click', function (e) {alert('vert')}, false);
+        grand1.addEventListener('click', function (e) {alert('gris')}, true);
+
+        let petit2 = document.getElementById("petit2");
+        let grand2 = document.getElementById("grand2");
+
+        petit2.addEventListener('click', function (e) {alert('vert'); e.stopPropagation()}, false);
+        grand2.addEventListener('click', function (e) {alert('gris')}, false);
+    }
+
+    onload = eventsAction;
+</script>
