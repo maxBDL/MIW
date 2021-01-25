@@ -1,8 +1,8 @@
 .infos{
   position: relative;
-  bottom: 85.8vh;
-  height: 75%;
-  width: 100%;
+  bottom: 75vh;
+  height: 75vh;
+  width: 100vw;
   background-color: $dark_white;
   display: flex;
   flex-direction: column;
@@ -10,9 +10,7 @@
   justify-content: start;
   z-index: 2;
 
-  ///
-  /*display: none;*/
-  ///
+
 }
 
 .nav_infos{
@@ -25,14 +23,20 @@
   height: 80px;
   border-radius:0 0 50px 50px;
   .time{
-    width: 33%;
+    margin-left: 20px;
+    width: 25%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    img{
+      width: 25%;
+      margin-right: 10px;
+    }
     p{
+      margin:0;
       color: $white;
-      line-height: 30px;
+      line-height: 20px;
     }
   }
   .trait{
@@ -44,7 +48,7 @@
     justify-content: center;
   }
   .icons{
-    width: 33%;
+    width: 45%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -71,7 +75,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   img{
     width: 10%;
   }
@@ -84,6 +88,7 @@
   background-color: #ffffff;
   width: 25%;
   border-radius: 50%;
+  margin-bottom: 5%;
   img{
     width: 100%;
   }
@@ -101,5 +106,30 @@
       color: $dark_blue;
     }
   }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .infos{
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .infos{
+    display: inline;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 
 }

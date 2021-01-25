@@ -129,9 +129,6 @@ h2{
       width: 50px;
     }
   }
-  svg{
-    margin: 0 auto;
-  }
 }
 
 footer{
@@ -165,7 +162,7 @@ footer{
       right: 33vh;
       margin-top: 0;
     }
-    h1 + svg{
+    h1 + img{
       position: relative;
       left: 20vh;
       bottom: 10vh;

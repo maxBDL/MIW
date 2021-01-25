@@ -5,8 +5,7 @@
     <title>Maps</title>
     <link href="css/map.css" rel="stylesheet" media="all" type="text/css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""
-    />
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
     </script>
@@ -14,10 +13,6 @@
 <body>
     <nav>
         <div class="nav_gauche">
-            <div class="zoom">
-                <button type="button"><p>+</p></button>
-                <button type="button"><p>-</p></button>
-            </div>
             <div class="search">
                 <input type="text" placeholder="Ville, adresse, ....">
                 <button><img src="icons/Search.svg"></button>
@@ -36,7 +31,7 @@
         <div class="nav_infos">
             <div class="time">
                 <img src="icons/time.svg">
-                <p>10h50: 21/12/2020</p>
+                <p>10h50</p>
             </div>
             <div class="trait">
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="5" viewBox="0 0 56 5">
@@ -45,21 +40,10 @@
             </div>
             <div class="icons">
                 <div>
-                    <svg id="Refresh" xmlns="http://www.w3.org/2000/svg" width="22.114" height="20" viewBox="0 0 22.114 20">
-                        <path id="Tracé_20" data-name="Tracé 20" d="M89.982,141.094h-.035a.885.885,0,0,1-.833-.72l-.922-4.933a.883.883,0,0,1,1.737-.316l.39,2.089a10.449,10.449,0,0,1,5-4.2,10.647,10.647,0,0,1,13.01,4.231.88.88,0,0,1-.3,1.211.9.9,0,0,1-1.223-.3,8.855,8.855,0,0,0-10.812-3.511,8.675,8.675,0,0,0-5.158,5.793.872.872,0,0,1-.851.65Zm9.2,11.147a10.644,10.644,0,0,1-9.057-5,.88.88,0,0,1,.3-1.211.9.9,0,0,1,1.223.3,8.871,8.871,0,0,0,10.83,3.511,8.665,8.665,0,0,0,5.158-5.811.874.874,0,0,1,.886-.65.885.885,0,0,1,.833.72l.922,4.933a.883.883,0,0,1-1.737.316l-.39-2.089a10.488,10.488,0,0,1-4.981,4.2,10.689,10.689,0,0,1-3.988.79Z" transform="translate(-88.177 -132.242)" fill="#fff"/>
-                    </svg>
+                    <img src="icons/Home.svg">
                 </div>
                 <div>
-                    <svg id="Home" xmlns="http://www.w3.org/2000/svg" width="27.422" height="26.29" viewBox="0 0 27.422 26.29">
-                        <path id="Tracé_9" data-name="Tracé 9" d="M113.411,119.658a.948.948,0,0,1-.707-.3l-10.468-10.468a2.134,2.134,0,0,0-3.011,0L88.778,119.355a1.015,1.015,0,0,1-1.435-1.435l10.468-10.468a4.171,4.171,0,0,1,5.88,0l10.468,10.468a1,1,0,0,1,0,1.435A1.108,1.108,0,0,1,113.411,119.658Z" transform="translate(-87.04 -106.24)" fill="#fff"/>
-                        <path id="Tracé_10" data-name="Tracé 10" d="M183.381,411.437H170.327a4.575,4.575,0,0,1-4.567-4.567V395.25a1.01,1.01,0,0,1,2.021,0V406.87a2.548,2.548,0,0,0,2.546,2.546h13.054a2.548,2.548,0,0,0,2.546-2.546V400.3a1.01,1.01,0,1,1,2.021,0v6.568A4.562,4.562,0,0,1,183.381,411.437Z" transform="translate(-163.274 -385.147)" fill="#fff"/>
-                    </svg>
-                </div>
-                <div>
-                    <svg id="Close" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                        <path id="Tracé_21" data-name="Tracé 21" d="M210.97,242.7a.929.929,0,0,1-.693-.3l-6.515-6.515a.994.994,0,0,1,1.406-1.406L211.683,241a.98.98,0,0,1,0,1.406A1,1,0,0,1,210.97,242.7Zm-9.03-9.049a.929.929,0,0,1-.693-.3l-8.95-8.931a.994.994,0,0,1,1.406-1.406l8.95,8.95a.98.98,0,0,1,0,1.406A1.075,1.075,0,0,1,201.94,233.651Z" transform="translate(-192 -222.7)" fill="#fff"/>
-                        <path id="Tracé_22" data-name="Tracé 22" d="M192.99,242.08a.929.929,0,0,1-.693-.3.98.98,0,0,1,0-1.406l18-18a.994.994,0,0,1,1.406,1.406l-18,18A1.04,1.04,0,0,1,192.99,242.08Z" transform="translate(-192 -222.08)" fill="#fff"/>
-                    </svg>
+                    <img src="icons/Close.svg">
                 </div>
             </div>
         </div>
@@ -85,14 +69,7 @@
             </div>
             <div class="data">
                 <div class="value">
-                    <img src="icons/heat.svg">
-                    <p>5%</p>
-                </div>
-                <img src="icons/fond_claire.svg">
-            </div>
-            <div class="data">
-                <div class="value">
-                    <img src="icons/cold.svg">
+                    <img src="icons/now.svg">
                     <p>5%</p>
                 </div>
                 <img src="icons/fond_claire.svg">
@@ -102,7 +79,7 @@
 </body>
 
 <script>
-    let carte = L.map('carte', {center: [46.3630104, 2.9846608],zoom: 5, zoomControl: false, attributionControl : false});
+    let carte = L.map('carte', {center: [46.3630104, 2.9846608],zoom: 5, attributionControl : false});
     /* On aurait aussi pu écrire
     let carte = L.map('maCarte').setView([46.3630104, 2.9846608],5 );
     */
