@@ -21,10 +21,25 @@ function affichInterface(){
     var titre = document.createElement('h1');
     var titreText = document.createTextNode('Jeu du MORPION');
     titre.appendChild(titreText);
+    interface.appendChild(titre);
 
+    for (let i = 1; i <= 2; i++) {
+        var divJoueur = document.createElement('div');
+        var pNom = document.createElement('p');
+        var pNomText = document.createTextNode('Joueur '+i+': ');
+        var inputNom = document.createElement('input');
+        var pScore = document.createElement('p');
+        var pScoreText = document.createTextNode('Score: ');
+        var inputScore = document.createElement('input');
 
-    var divJoueur1 = document.createElement('div');
-    var = document.create
+        pNom.appendChild(pNomText);
+        divJoueur.appendChild(pNom);
+        divJoueur.appendChild(inputNom);
+        pScore.appendChild(pScoreText);
+        divJoueur.appendChild(pScore);
+        divJoueur.appendChild(inputScore);
+        interface.appendChild(divJoueur);
+    }
 
 
 
@@ -38,14 +53,23 @@ function affichInterface(){
     var buttonNew = document.createElement('button');
     var buttonNewText = document.createTextNode('Nouvelle Partie')
     buttonNew.appendChild(buttonNewText);
-
-    //Ajout des différents éléments
-    interface.appendChild(titre);
     interface.appendChild(buttonPlay);
     interface.appendChild(buttonNew);
+
 }
 
 function affichJeu(){
     affichGrille();
     affichInterface();
+}
+
+
+function affichTour(tour, x, y){
+    if ((tour % 2) == 0){
+        var grille = document.getElementById('grille');
+        var context = grille.getContext("2d");
+
+    }else{
+
+    }
 }
